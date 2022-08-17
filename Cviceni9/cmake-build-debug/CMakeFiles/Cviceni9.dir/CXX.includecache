@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/skajl/Desktop/Vzdelani/PEF/Vyuka/Semestr3/ALG/Cviceni/Cviceni9/main.cpp
+iostream
+-
+

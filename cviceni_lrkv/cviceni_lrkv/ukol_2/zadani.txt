@@ -1,0 +1,10 @@
+Při implementaci programu vozidla_funkce.cpp vycházejte z řídícího programu vozidla_jizda.cpp*. Oba tyto programy mají naprosto shodnou strukturu. Jediná věc, ve které se tyto programy liši, je název položky, jejíž hodnotu budeme zadávat. Zatímco v připadě programu vozidla_jizda.cpp jsme zadávali hodnotu položky "speedStep" (rychlostní stupně), tak v programu vozidla_funkce.cpp budeme pracovat s položkou "funcState" (stav funkcí). Zbylé části programů zůstanou shodné. Samotné vypnutí/zapnutí funkcí se pak zadává pomocí řětězce 29 znaků (funkce 0 až 28), která je složen z nul (0 – funkce vypnuta) a jedniček (1 – funkce zapnuta). Chceme-li tak na lokomotivě zapnout např. funkce 0 a 4, musíme na server odeslat následující řetězec: "10001000000000000000000000000".
+
+Funkčnost programu budeme testovat na lokomotivě následovně:
+0. lokomotiva bude ve stavu, kdy budou všechny funkce vypnuty
+1. nastartujeme motor – zapneme funkci 1
+2. necháme nastartováno a rožneme světla – zapneme navíc funkci 0
+3. necháme nastartováno, máme rožnutá světla a zatroubíme – zapneme navíc funkci 2
+
+
+* V případě, že se Vám nepodařila implementace modulu mzjisti.cpp, bude potřeba při tvorbě pogramu vycházet z Vámi naimplementovaného programu nahrada_vozidla_jizda.cpp, případně jej dodateně dle pokynů pro náhradní řídící programy upravit. !!Soubor vozidla_funkce.cpp potřebuje ke kompilaci modul mzjisti.cpp, i když se Vám jej nepodařilo naimplementovat!!

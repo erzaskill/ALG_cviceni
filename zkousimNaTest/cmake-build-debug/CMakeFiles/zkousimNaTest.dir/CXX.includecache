@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/skajl/Desktop/Vzdelani/PEF/Vyuka/Semestr3/ALG/Cviceni/zkousimNaTest/main.cpp
+iostream
+C:/Users/skajl/Desktop/Vzdelani/PEF/Vyuka/Semestr3/ALG/Cviceni/zkousimNaTest/iostream
+fstream
+C:/Users/skajl/Desktop/Vzdelani/PEF/Vyuka/Semestr3/ALG/Cviceni/zkousimNaTest/fstream
+

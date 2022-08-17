@@ -1,0 +1,4 @@
+Na standardním vstupu se nachází řada celočíselných hodnot. Vypište ze vstupní řady dvě hodnoty s největším ciferným součtem.
+Vstupní data jsou tvořena dvojicemi údajů o cenách určité akcie na burze. Je vždy zadáno datum (jako 8znakový řetězec) a za ním uzavírací cena daného obchodního dne (desetinné číslo). Místo poslední dvojice je pouze jeden řetězec s hodnotou "X". Vypište na výstup datum, kdy došlo k největšímu nárůstu ceny akcie proti předchozímu obchodnímu dni.
+Na standardním vstupu jsou připraveny trojice reálných hodnot. Tyto trojice reprezentují naměřené denní teploty (ráno, poledne, večer). Jako ukončení řady je místo poslední trojice pouze jedna hodnota –1000. Určete a vypište průměrnou polední teplotu a dále vypište, v kolika dnech bylo večer chladněji než ráno.
+Napište podprogram, který přečte ze standardního vstupu řadu desetinných hodnot zakončenou nulou a jako dvě výstupní hodnoty vydá průměr přečtené řady a počet záporných hodnot.

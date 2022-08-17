@@ -1,0 +1,3 @@
+C:/Users/skajl/Desktop/Vzdelani/PEF/Vyuka/Semestr3/ALG/Cviceni/zkousimNaTest/cmake-build-debug/CMakeFiles/zkousimNaTest.dir
+C:/Users/skajl/Desktop/Vzdelani/PEF/Vyuka/Semestr3/ALG/Cviceni/zkousimNaTest/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/skajl/Desktop/Vzdelani/PEF/Vyuka/Semestr3/ALG/Cviceni/zkousimNaTest/cmake-build-debug/CMakeFiles/rebuild_cache.dir

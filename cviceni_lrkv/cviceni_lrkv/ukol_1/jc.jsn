@@ -1,0 +1,4333 @@
+{
+	"jc": [
+		{
+			"name": "Bs S1 > Bs PriblL",
+			"id": 0,
+			"signalId": 171,
+			"type": "VC",
+			"nextSignal": "trat",
+			"turnouts": [
+				{
+					"block": 120,
+					"position": "+"
+				},
+				{
+					"block": 121,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				157,
+				159,
+				160
+			],
+			"locks": [
+				{
+					"lock": 480,
+					"refTrack": 160
+				}
+			],
+			"railway": 1000,
+			"railwayDir": 2,
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": false
+		},
+		{
+			"name": "Bs S2 > Bs PriblL",
+			"id": 1,
+			"signalId": 173,
+			"type": "VC",
+			"nextSignal": "trat",
+			"turnouts": [
+				{
+					"block": 120,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				157,
+				159,
+				160
+			],
+			"locks": [
+				{
+					"lock": 185,
+					"refTrack": 157
+				},
+				{
+					"lock": 480,
+					"refTrack": 160
+				}
+			],
+			"railway": 1000,
+			"railwayDir": 2,
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Bs L > Bs 2K",
+			"id": 2,
+			"signalId": 180,
+			"type": "VC",
+			"nextSignal": "block",
+			"nextSignalId": 172,
+			"turnouts": [
+				{
+					"block": 120,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				159,
+				157,
+				151
+			],
+			"locks": [
+				{
+					"lock": 185,
+					"refTrack": 151
+				}
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Bs L > Bs 1K",
+			"id": 3,
+			"signalId": 180,
+			"type": "VC",
+			"nextSignal": "block",
+			"nextSignalId": 170,
+			"turnouts": [
+				{
+					"block": 120,
+					"position": "+"
+				},
+				{
+					"block": 121,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				159,
+				157,
+				150
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": false
+		},
+		{
+			"name": "Bs L1 > Bs SK",
+			"id": 50,
+			"signalId": 170,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 124,
+					"position": "+"
+				},
+				{
+					"block": 125,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				155,
+				156
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": false
+		},
+		{
+			"name": "Bs L2 > Bs SK",
+			"id": 51,
+			"signalId": 172,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 124,
+					"position": "-"
+				},
+				{
+					"block": 125,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				155,
+				156
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Bs Se4 > Bs SK",
+			"id": 52,
+			"signalId": 175,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 125,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				155,
+				156
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Bs S1 > Bs LK",
+			"id": 53,
+			"signalId": 171,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 120,
+					"position": "+"
+				},
+				{
+					"block": 121,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				157,
+				159
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": false
+		},
+		{
+			"name": "Bs S2 > Bs LK",
+			"id": 54,
+			"signalId": 173,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 120,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				157,
+				159
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Bs Se3 > Bs LK",
+			"id": 55,
+			"signalId": 174,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 120,
+					"position": "+"
+				},
+				{
+					"block": 121,
+					"position": "-"
+				},
+				{
+					"block": 126,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				158,
+				157,
+				159
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Bs Se5 > Bs 1K",
+			"id": 56,
+			"signalId": 179,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 124,
+					"position": "+"
+				},
+				{
+					"block": 125,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				155,
+				150
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": false
+		},
+		{
+			"name": "Bs Se5 > Bs 2K",
+			"id": 57,
+			"signalId": 179,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 124,
+					"position": "-"
+				},
+				{
+					"block": 125,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				155,
+				151
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Bs Se5 > Bs 3K",
+			"id": 58,
+			"signalId": 179,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 125,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				155,
+				152
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Bs Se1 > Bs 1K",
+			"id": 59,
+			"signalId": 178,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 120,
+					"position": "+"
+				},
+				{
+					"block": 121,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				157,
+				150
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": false
+		},
+		{
+			"name": "Bs Se1 > Bs 2K",
+			"id": 60,
+			"signalId": 178,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 120,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				157,
+				151
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Bs Se1 > Bs 3K",
+			"id": 61,
+			"signalId": 178,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 120,
+					"position": "+"
+				},
+				{
+					"block": 121,
+					"position": "-"
+				},
+				{
+					"block": 126,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				157,
+				158,
+				152
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Bs Se2 > Bs 3K",
+			"id": 62,
+			"signalId": 181,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 126,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				158,
+				152
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": false
+		},
+		{
+			"name": "Bs Se3 > Bs 3aK",
+			"id": 63,
+			"signalId": 174,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 126,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				158,
+				162
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": false
+		},
+		{
+			"name": "Bs Se0 > Bs PriblL",
+			"id": 64,
+			"signalId": 176,
+			"type": "PC",
+			"nextSignal": "-",
+			"tracks": [
+				160
+			],
+			"railway": 1000,
+			"railwayDir": 2,
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": false
+		},
+		{
+			"name": "Sm1 L > Sm1 K1",
+			"id": 200,
+			"signalId": 230,
+			"type": "VC",
+			"nextSignal": "block",
+			"nextSignalId": 231,
+			"turnouts": [
+				{
+					"block": 200,
+					"position": "-"
+				},
+				{
+					"block": 202,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				211,
+				213,
+				214
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Sm1 L > Sm1 K2",
+			"id": 201,
+			"signalId": 230,
+			"type": "VC",
+			"nextSignal": "block",
+			"nextSignalId": 232,
+			"turnouts": [
+				{
+					"block": 200,
+					"position": "-"
+				},
+				{
+					"block": 202,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				211,
+				213,
+				215
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Sm1 1S > Ku AR",
+			"id": 202,
+			"signalId": 231,
+			"type": "VC",
+			"nextSignal": "trat",
+			"turnouts": [
+				{
+					"block": 200,
+					"position": "+"
+				},
+				{
+					"block": 201,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				212,
+				211,
+				320
+			],
+			"railway": 1005,
+			"railwayDir": 2,
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": false
+		},
+		{
+			"name": "Sm1 2S > Ku AR",
+			"id": 203,
+			"signalId": 232,
+			"type": "VC",
+			"nextSignal": "trat",
+			"turnouts": [
+				{
+					"block": 200,
+					"position": "+"
+				},
+				{
+					"block": 201,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				212,
+				211,
+				320
+			],
+			"railway": 1005,
+			"railwayDir": 2,
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Ku BS > Ku 1K",
+			"id": 300,
+			"signalId": 337,
+			"type": "VC",
+			"nextSignal": "block",
+			"nextSignalId": 331,
+			"turnouts": [
+				{
+					"block": 306,
+					"position": "-"
+				},
+				{
+					"block": 305,
+					"position": "+"
+				},
+				{
+					"block": 304,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				321,
+				319,
+				318,
+				310
+			],
+			"locks": [
+				{
+					"lock": 360,
+					"refTrack": 310
+				}
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Ku BS > Ku 2K",
+			"id": 301,
+			"signalId": 337,
+			"type": "VC",
+			"nextSignal": "block",
+			"nextSignalId": 333,
+			"turnouts": [
+				{
+					"block": 306,
+					"position": "-"
+				},
+				{
+					"block": 305,
+					"position": "-"
+				},
+				{
+					"block": 303,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				321,
+				319,
+				318,
+				317,
+				311
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Ku BS > Ku 4K",
+			"id": 302,
+			"signalId": 337,
+			"type": "VC",
+			"nextSignal": "block",
+			"nextSignalId": 335,
+			"turnouts": [
+				{
+					"block": 306,
+					"position": "-"
+				},
+				{
+					"block": 305,
+					"position": "-"
+				},
+				{
+					"block": 303,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				321,
+				319,
+				318,
+				317,
+				313
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Ku L1 > Ku PriblBS",
+			"id": 303,
+			"signalId": 330,
+			"type": "VC",
+			"nextSignal": "trat",
+			"turnouts": [
+				{
+					"block": 304,
+					"position": "+"
+				},
+				{
+					"block": 305,
+					"position": "+"
+				},
+				{
+					"block": 306,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				318,
+				319,
+				321,
+				326
+			],
+			"locks": [
+				{
+					"lock": 360,
+					"refTrack": 318
+				},
+				{
+					"lock": 480,
+					"refTrack": 326
+				}
+			],
+			"railway": 1000,
+			"railwayDir": 1,
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Ku L2 > Ku PriblBS",
+			"id": 304,
+			"signalId": 332,
+			"type": "VC",
+			"nextSignal": "trat",
+			"turnouts": [
+				{
+					"block": 303,
+					"position": "+"
+				},
+				{
+					"block": 305,
+					"position": "-"
+				},
+				{
+					"block": 306,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				317,
+				318,
+				319,
+				321,
+				326
+			],
+			"locks": [
+				{
+					"lock": 480,
+					"refTrack": 326
+				}
+			],
+			"railway": 1000,
+			"railwayDir": 1,
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Ku L4 > Ku PriblBS",
+			"id": 305,
+			"signalId": 334,
+			"type": "VC",
+			"nextSignal": "trat",
+			"turnouts": [
+				{
+					"block": 303,
+					"position": "-"
+				},
+				{
+					"block": 305,
+					"position": "-"
+				},
+				{
+					"block": 306,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				317,
+				318,
+				319,
+				321,
+				326
+			],
+			"locks": [
+				{
+					"lock": 480,
+					"refTrack": 326
+				}
+			],
+			"railway": 1000,
+			"railwayDir": 1,
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Ku L1 > Ku AR",
+			"id": 306,
+			"signalId": 330,
+			"type": "VC",
+			"nextSignal": "trat",
+			"turnouts": [
+				{
+					"block": 304,
+					"position": "+"
+				},
+				{
+					"block": 305,
+					"position": "+"
+				},
+				{
+					"block": 306,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				318,
+				319,
+				320
+			],
+			"locks": [
+				{
+					"lock": 360,
+					"refTrack": 318
+				}
+			],
+			"railway": 1005,
+			"railwayDir": 1,
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": false
+		},
+		{
+			"name": "Ku L2 > Ku AR",
+			"id": 307,
+			"signalId": 332,
+			"type": "VC",
+			"nextSignal": "trat",
+			"turnouts": [
+				{
+					"block": 303,
+					"position": "+"
+				},
+				{
+					"block": 305,
+					"position": "-"
+				},
+				{
+					"block": 306,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				317,
+				318,
+				319,
+				320
+			],
+			"railway": 1005,
+			"railwayDir": 1,
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Ku L4 > Ku AR",
+			"id": 308,
+			"signalId": 334,
+			"type": "VC",
+			"nextSignal": "trat",
+			"turnouts": [
+				{
+					"block": 303,
+					"position": "-"
+				},
+				{
+					"block": 305,
+					"position": "-"
+				},
+				{
+					"block": 306,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				317,
+				318,
+				319,
+				320
+			],
+			"railway": 1005,
+			"railwayDir": 1,
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Ku AS > Ku 1K",
+			"id": 309,
+			"signalId": 344,
+			"type": "VC",
+			"nextSignal": "block",
+			"nextSignalId": 331,
+			"turnouts": [
+				{
+					"block": 306,
+					"position": "+"
+				},
+				{
+					"block": 305,
+					"position": "+"
+				},
+				{
+					"block": 304,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				319,
+				318,
+				310
+			],
+			"locks": [
+				{
+					"lock": 360,
+					"refTrack": 310
+				}
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": false
+		},
+		{
+			"name": "Ku AS > Ku 2K",
+			"id": 310,
+			"signalId": 344,
+			"type": "VC",
+			"nextSignal": "block",
+			"nextSignalId": 333,
+			"turnouts": [
+				{
+					"block": 306,
+					"position": "+"
+				},
+				{
+					"block": 305,
+					"position": "-"
+				},
+				{
+					"block": 303,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				319,
+				318,
+				317,
+				311
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Ku AS > Ku 4K",
+			"id": 311,
+			"signalId": 344,
+			"type": "VC",
+			"nextSignal": "block",
+			"nextSignalId": 335,
+			"turnouts": [
+				{
+					"block": 306,
+					"position": "+"
+				},
+				{
+					"block": 305,
+					"position": "-"
+				},
+				{
+					"block": 303,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				319,
+				318,
+				317,
+				313
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Ku S1 > Ku PriblL",
+			"id": 312,
+			"signalId": 331,
+			"type": "VC",
+			"nextSignal": "trat",
+			"turnouts": [
+				{
+					"block": 300,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				314,
+				322,
+				323
+			],
+			"locks": [
+				{
+					"lock": 360,
+					"refTrack": 314
+				}
+			],
+			"railway": 1010,
+			"railwayDir": 2,
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": false
+		},
+		{
+			"name": "Ku S2 > Ku PriblL",
+			"id": 313,
+			"signalId": 333,
+			"type": "VC",
+			"nextSignal": "trat",
+			"turnouts": [
+				{
+					"block": 300,
+					"position": "-"
+				},
+				{
+					"block": 302,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				316,
+				315,
+				314,
+				322,
+				323
+			],
+			"railway": 1010,
+			"railwayDir": 2,
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Ku S4 > Ku PriblL",
+			"id": 314,
+			"signalId": 335,
+			"type": "VC",
+			"nextSignal": "trat",
+			"turnouts": [
+				{
+					"block": 300,
+					"position": "-"
+				},
+				{
+					"block": 302,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				316,
+				315,
+				314,
+				322,
+				323
+			],
+			"railway": 1010,
+			"railwayDir": 2,
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Ku L > Ku 1K",
+			"id": 315,
+			"signalId": 336,
+			"type": "VC",
+			"nextSignal": "block",
+			"nextSignalId": 330,
+			"turnouts": [
+				{
+					"block": 300,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				322,
+				314,
+				310
+			],
+			"locks": [
+				{
+					"lock": 360,
+					"refTrack": 310
+				}
+			],
+			"speedGo": 50,
+			"speedStop": 50,
+			"turn": false
+		},
+		{
+			"name": "Ku L > Ku 2K",
+			"id": 316,
+			"signalId": 336,
+			"type": "VC",
+			"nextSignal": "block",
+			"nextSignalId": 332,
+			"turnouts": [
+				{
+					"block": 300,
+					"position": "-"
+				},
+				{
+					"block": 302,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				322,
+				314,
+				315,
+				316,
+				311
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Ku L > Ku 4K",
+			"id": 317,
+			"signalId": 336,
+			"type": "VC",
+			"nextSignal": "block",
+			"nextSignalId": 334,
+			"turnouts": [
+				{
+					"block": 300,
+					"position": "-"
+				},
+				{
+					"block": 302,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				322,
+				314,
+				315,
+				316,
+				313
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Ku L1 > Ku SK",
+			"id": 350,
+			"signalId": 330,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 304,
+					"position": "+"
+				},
+				{
+					"block": 305,
+					"position": "+"
+				},
+				{
+					"block": 306,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				318,
+				319,
+				321
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Ku L2 > Ku SK",
+			"id": 351,
+			"signalId": 332,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 303,
+					"position": "+"
+				},
+				{
+					"block": 305,
+					"position": "-"
+				},
+				{
+					"block": 306,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				317,
+				318,
+				319,
+				321
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Ku L4 > Ku SK",
+			"id": 352,
+			"signalId": 334,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 303,
+					"position": "-"
+				},
+				{
+					"block": 305,
+					"position": "-"
+				},
+				{
+					"block": 306,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				317,
+				318,
+				319,
+				321
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Ku Se4 > Ku SK",
+			"id": 353,
+			"signalId": 341,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 304,
+					"position": "-"
+				},
+				{
+					"block": 305,
+					"position": "+"
+				},
+				{
+					"block": 306,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				318,
+				319,
+				321
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Ku Se5 > Ku 1K",
+			"id": 354,
+			"signalId": 342,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 305,
+					"position": "+"
+				},
+				{
+					"block": 304,
+					"position": "+"
+				},
+				{
+					"block": 306,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				319,
+				318,
+				310
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Ku Se5 > Ku 2K",
+			"id": 355,
+			"signalId": 342,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 305,
+					"position": "-"
+				},
+				{
+					"block": 303,
+					"position": "+"
+				},
+				{
+					"block": 306,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				319,
+				318,
+				317,
+				311
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Ku Se5 > Ku 4K",
+			"id": 356,
+			"signalId": 342,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 305,
+					"position": "-"
+				},
+				{
+					"block": 303,
+					"position": "-"
+				},
+				{
+					"block": 306,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				319,
+				318,
+				317,
+				313
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Ku Se5 > Ku 3K",
+			"id": 357,
+			"signalId": 342,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 305,
+					"position": "+"
+				},
+				{
+					"block": 304,
+					"position": "-"
+				},
+				{
+					"block": 306,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				319,
+				318,
+				312
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Ku S1 > Ku LK",
+			"id": 358,
+			"signalId": 331,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 300,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				314,
+				322
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": false
+		},
+		{
+			"name": "Ku Se2 > Ku LK",
+			"id": 359,
+			"signalId": 339,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 300,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				314,
+				322
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Ku Se1 > Ku 1K",
+			"id": 360,
+			"signalId": 338,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 300,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				314,
+				310
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": false
+		},
+		{
+			"name": "Ku Se1 > Ku 2aK",
+			"id": 361,
+			"signalId": 338,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 300,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				314,
+				315
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Ku Se3 > Ku 2K",
+			"id": 362,
+			"signalId": 340,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 302,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				316,
+				311
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": false
+		},
+		{
+			"name": "Ku Se3 > Ku 4K",
+			"id": 363,
+			"signalId": 340,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 302,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				316,
+				313
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Ku S2 > Ku 2aK",
+			"id": 364,
+			"signalId": 333,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 302,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				316,
+				315
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": false
+		},
+		{
+			"name": "Ku S4 > Ku 2aK",
+			"id": 365,
+			"signalId": 335,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 302,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				316,
+				315
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh S > Okh K3",
+			"id": 500,
+			"signalId": 550,
+			"type": "VC",
+			"nextSignal": "block",
+			"nextSignalId": 563,
+			"turnouts": [
+				{
+					"block": 500,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				529,
+				528
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh L3 > Okh PriblS",
+			"id": 501,
+			"signalId": 564,
+			"type": "VC",
+			"nextSignal": "trat",
+			"turnouts": [
+				{
+					"block": 500,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				529,
+				542
+			],
+			"railway": 1010,
+			"railwayDir": 1,
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Sc3 > Okh K1d",
+			"id": 502,
+			"signalId": 563,
+			"type": "VC",
+			"nextSignal": "block",
+			"nextSignalId": 559,
+			"turnouts": [
+				{
+					"block": 504,
+					"position": "+"
+				},
+				{
+					"block": 505,
+					"position": "+"
+				},
+				{
+					"block": 506,
+					"position": "+"
+				},
+				{
+					"block": 502,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				530,
+				531,
+				523
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": false
+		},
+		{
+			"name": "Okh Sc3 > Okh K2d",
+			"id": 503,
+			"signalId": 563,
+			"type": "VC",
+			"nextSignal": "block",
+			"nextSignalId": 560,
+			"turnouts": [
+				{
+					"block": 502,
+					"position": "+"
+				},
+				{
+					"block": 504,
+					"position": "+"
+				},
+				{
+					"block": 505,
+					"position": "+"
+				},
+				{
+					"block": 506,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				530,
+				531,
+				527
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh S > Okh K1a",
+			"id": 504,
+			"signalId": 550,
+			"type": "VC",
+			"nextSignal": "block",
+			"nextSignalId": 553,
+			"turnouts": [
+				{
+					"block": 500,
+					"position": "+"
+				},
+				{
+					"block": 501,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				529,
+				520
+			],
+			"speedGo": 50,
+			"speedStop": 40,
+			"turn": false
+		},
+		{
+			"name": "Okh S > Okh K2a",
+			"id": 505,
+			"signalId": 550,
+			"type": "VC",
+			"nextSignal": "block",
+			"nextSignalId": 554,
+			"turnouts": [
+				{
+					"block": 500,
+					"position": "+"
+				},
+				{
+					"block": 501,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				529,
+				524
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh L1a > Okh PriblS",
+			"id": 506,
+			"signalId": 551,
+			"type": "VC",
+			"nextSignal": "trat",
+			"turnouts": [
+				{
+					"block": 500,
+					"position": "+"
+				},
+				{
+					"block": 501,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				529,
+				542
+			],
+			"railway": 1010,
+			"railwayDir": 1,
+			"speedGo": 50,
+			"speedStop": 40,
+			"turn": false
+		},
+		{
+			"name": "Okh L2a > Okh PriblS",
+			"id": 507,
+			"signalId": 552,
+			"type": "VC",
+			"nextSignal": "trat",
+			"turnouts": [
+				{
+					"block": 501,
+					"position": "-"
+				},
+				{
+					"block": 500,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				529,
+				542
+			],
+			"railway": 1010,
+			"railwayDir": 1,
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Sc1d > Okh K1c",
+			"id": 508,
+			"signalId": 559,
+			"type": "VC",
+			"nextSignal": "block",
+			"nextSignalId": 557,
+			"tracks": [
+				522
+			],
+			"speedGo": 50,
+			"speedStop": 40,
+			"turn": false
+		},
+		{
+			"name": "Okh Sc2d > Okh K2c",
+			"id": 509,
+			"signalId": 560,
+			"type": "VC",
+			"nextSignal": "block",
+			"nextSignalId": 558,
+			"tracks": [
+				526
+			],
+			"speedGo": 50,
+			"speedStop": 40,
+			"turn": false
+		},
+		{
+			"name": "Okh Lc1c > Okh K1b",
+			"id": 510,
+			"signalId": 557,
+			"type": "VC",
+			"nextSignal": "block",
+			"nextSignalId": 555,
+			"tracks": [
+				521
+			],
+			"speedGo": 50,
+			"speedStop": 40,
+			"turn": false
+		},
+		{
+			"name": "Okh Lc2c > Okh K2b",
+			"id": 511,
+			"signalId": 558,
+			"type": "VC",
+			"nextSignal": "block",
+			"nextSignalId": 556,
+			"tracks": [
+				525
+			],
+			"speedGo": 50,
+			"speedStop": 40,
+			"turn": false
+		},
+		{
+			"name": "Okh Lc1b > Okh K1a",
+			"id": 512,
+			"signalId": 555,
+			"type": "VC",
+			"nextSignal": "block",
+			"nextSignalId": 551,
+			"turnouts": [
+				{
+					"block": 511,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				533,
+				520
+			],
+			"speedGo": 50,
+			"speedStop": 40,
+			"turn": false
+		},
+		{
+			"name": "Okh Lc2b > Okh K2a",
+			"id": 513,
+			"signalId": 556,
+			"type": "VC",
+			"nextSignal": "block",
+			"nextSignalId": 552,
+			"tracks": [
+				524
+			],
+			"speedGo": 50,
+			"speedStop": 40,
+			"turn": false
+		},
+		{
+			"name": "Okh Sc1a > Okh K1b",
+			"id": 514,
+			"signalId": 553,
+			"type": "VC",
+			"nextSignal": "block",
+			"nextSignalId": 575,
+			"turnouts": [
+				{
+					"block": 511,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				533,
+				521
+			],
+			"speedGo": 50,
+			"speedStop": 40,
+			"turn": false
+		},
+		{
+			"name": "Okh Sc2a > Okh K2b",
+			"id": 515,
+			"signalId": 554,
+			"type": "VC",
+			"nextSignal": "block",
+			"nextSignalId": 576,
+			"tracks": [
+				525
+			],
+			"speedGo": 50,
+			"speedStop": 40,
+			"turn": false
+		},
+		{
+			"name": "Okh Lc1b > Okh K101",
+			"id": 516,
+			"signalId": 555,
+			"type": "VC",
+			"nextSignal": "block",
+			"nextSignalId": 565,
+			"turnouts": [
+				{
+					"block": 511,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				533,
+				534
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Sc101 > Okh K1d",
+			"id": 517,
+			"signalId": 565,
+			"type": "VC",
+			"nextSignal": "block",
+			"nextSignalId": 559,
+			"turnouts": [
+				{
+					"block": 504,
+					"position": "-"
+				},
+				{
+					"block": 505,
+					"position": "+"
+				},
+				{
+					"block": 506,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				530,
+				531,
+				523
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Sc101 > Okh K2d",
+			"id": 518,
+			"signalId": 565,
+			"type": "VC",
+			"nextSignal": "block",
+			"nextSignalId": 560,
+			"turnouts": [
+				{
+					"block": 504,
+					"position": "-"
+				},
+				{
+					"block": 505,
+					"position": "+"
+				},
+				{
+					"block": 506,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				530,
+				531,
+				527
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Sc3 > Okh K40",
+			"id": 519,
+			"signalId": 563,
+			"type": "VC",
+			"nextSignal": "block",
+			"nextSignalId": 578,
+			"turnouts": [
+				{
+					"block": 502,
+					"position": "+"
+				},
+				{
+					"block": 504,
+					"position": "+"
+				},
+				{
+					"block": 505,
+					"position": "-"
+				},
+				{
+					"block": 507,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				530,
+				531,
+				532,
+				539
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Sc101 > Okh K40",
+			"id": 520,
+			"signalId": 565,
+			"type": "VC",
+			"nextSignal": "block",
+			"nextSignalId": 578,
+			"turnouts": [
+				{
+					"block": 504,
+					"position": "-"
+				},
+				{
+					"block": 505,
+					"position": "-"
+				},
+				{
+					"block": 507,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				530,
+				531,
+				532,
+				539
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Lc40 > Okh K3",
+			"id": 521,
+			"signalId": 577,
+			"type": "VC",
+			"nextSignal": "block",
+			"nextSignalId": 564,
+			"turnouts": [
+				{
+					"block": 507,
+					"position": "+"
+				},
+				{
+					"block": 505,
+					"position": "-"
+				},
+				{
+					"block": 504,
+					"position": "+"
+				},
+				{
+					"block": 502,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				532,
+				531,
+				530,
+				528
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Lc1d > Okh K3",
+			"id": 522,
+			"signalId": 561,
+			"type": "VC",
+			"nextSignal": "block",
+			"nextSignalId": 564,
+			"turnouts": [
+				{
+					"block": 506,
+					"position": "+"
+				},
+				{
+					"block": 505,
+					"position": "+"
+				},
+				{
+					"block": 504,
+					"position": "+"
+				},
+				{
+					"block": 502,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				531,
+				530,
+				528
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": false
+		},
+		{
+			"name": "Okh Lc2d > Okh K3",
+			"id": 523,
+			"signalId": 562,
+			"type": "VC",
+			"nextSignal": "block",
+			"nextSignalId": 564,
+			"turnouts": [
+				{
+					"block": 506,
+					"position": "-"
+				},
+				{
+					"block": 505,
+					"position": "+"
+				},
+				{
+					"block": 504,
+					"position": "+"
+				},
+				{
+					"block": 502,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				531,
+				530,
+				528
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Sc3 > Okh K1d",
+			"id": 530,
+			"signalId": 563,
+			"type": "PC",
+			"nextSignal": "block",
+			"nextSignalId": 559,
+			"turnouts": [
+				{
+					"block": 504,
+					"position": "+"
+				},
+				{
+					"block": 505,
+					"position": "+"
+				},
+				{
+					"block": 506,
+					"position": "+"
+				},
+				{
+					"block": 502,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				530,
+				531,
+				523
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": false
+		},
+		{
+			"name": "Okh Sc3 > Okh K2d",
+			"id": 531,
+			"signalId": 563,
+			"type": "PC",
+			"nextSignal": "block",
+			"nextSignalId": 560,
+			"turnouts": [
+				{
+					"block": 502,
+					"position": "+"
+				},
+				{
+					"block": 504,
+					"position": "+"
+				},
+				{
+					"block": 505,
+					"position": "+"
+				},
+				{
+					"block": 506,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				530,
+				531,
+				527
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh S > Okh K1a",
+			"id": 532,
+			"signalId": 550,
+			"type": "PC",
+			"nextSignal": "block",
+			"nextSignalId": 553,
+			"turnouts": [
+				{
+					"block": 500,
+					"position": "+"
+				},
+				{
+					"block": 501,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				529,
+				520
+			],
+			"speedGo": 50,
+			"speedStop": 40,
+			"turn": false
+		},
+		{
+			"name": "Okh S > Okh K2a",
+			"id": 533,
+			"signalId": 550,
+			"type": "PC",
+			"nextSignal": "block",
+			"nextSignalId": 554,
+			"turnouts": [
+				{
+					"block": 500,
+					"position": "+"
+				},
+				{
+					"block": 501,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				529,
+				524
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Sc1d > Okh K1c",
+			"id": 534,
+			"signalId": 559,
+			"type": "PC",
+			"nextSignal": "block",
+			"nextSignalId": 557,
+			"tracks": [
+				522
+			],
+			"speedGo": 50,
+			"speedStop": 40,
+			"turn": false
+		},
+		{
+			"name": "Okh Sc2d > Okh K2c",
+			"id": 535,
+			"signalId": 560,
+			"type": "PC",
+			"nextSignal": "block",
+			"nextSignalId": 558,
+			"tracks": [
+				526
+			],
+			"speedGo": 50,
+			"speedStop": 40,
+			"turn": false
+		},
+		{
+			"name": "Okh Lc1c > Okh K1b",
+			"id": 536,
+			"signalId": 557,
+			"type": "PC",
+			"nextSignal": "block",
+			"nextSignalId": 555,
+			"tracks": [
+				521
+			],
+			"speedGo": 50,
+			"speedStop": 40,
+			"turn": false
+		},
+		{
+			"name": "Okh Lc2c > Okh K2b",
+			"id": 537,
+			"signalId": 558,
+			"type": "PC",
+			"nextSignal": "block",
+			"nextSignalId": 556,
+			"tracks": [
+				525
+			],
+			"speedGo": 50,
+			"speedStop": 40,
+			"turn": false
+		},
+		{
+			"name": "Okh Lc1b > Okh K1a",
+			"id": 538,
+			"signalId": 555,
+			"type": "PC",
+			"nextSignal": "block",
+			"nextSignalId": 551,
+			"turnouts": [
+				{
+					"block": 511,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				533,
+				520
+			],
+			"speedGo": 50,
+			"speedStop": 40,
+			"turn": false
+		},
+		{
+			"name": "Okh Lc2b > Okh K2a",
+			"id": 539,
+			"signalId": 556,
+			"type": "PC",
+			"nextSignal": "block",
+			"nextSignalId": 552,
+			"tracks": [
+				524
+			],
+			"speedGo": 50,
+			"speedStop": 40,
+			"turn": false
+		},
+		{
+			"name": "Okh Sc1a > Okh K1b",
+			"id": 540,
+			"signalId": 553,
+			"type": "PC",
+			"nextSignal": "block",
+			"nextSignalId": 575,
+			"turnouts": [
+				{
+					"block": 511,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				533,
+				521
+			],
+			"speedGo": 50,
+			"speedStop": 40,
+			"turn": false
+		},
+		{
+			"name": "Okh Sc2a > Okh K2b",
+			"id": 541,
+			"signalId": 554,
+			"type": "PC",
+			"nextSignal": "block",
+			"nextSignalId": 576,
+			"tracks": [
+				525
+			],
+			"speedGo": 50,
+			"speedStop": 40,
+			"turn": false
+		},
+		{
+			"name": "Okh Lc1b > Okh K101",
+			"id": 542,
+			"signalId": 555,
+			"type": "PC",
+			"nextSignal": "block",
+			"nextSignalId": 565,
+			"turnouts": [
+				{
+					"block": 511,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				533,
+				534
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Sc101 > Okh K1d",
+			"id": 543,
+			"signalId": 565,
+			"type": "PC",
+			"nextSignal": "block",
+			"nextSignalId": 559,
+			"turnouts": [
+				{
+					"block": 504,
+					"position": "-"
+				},
+				{
+					"block": 505,
+					"position": "+"
+				},
+				{
+					"block": 506,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				530,
+				531,
+				523
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Sc101 > Okh K2d",
+			"id": 544,
+			"signalId": 565,
+			"type": "PC",
+			"nextSignal": "block",
+			"nextSignalId": 560,
+			"turnouts": [
+				{
+					"block": 504,
+					"position": "-"
+				},
+				{
+					"block": 505,
+					"position": "+"
+				},
+				{
+					"block": 506,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				530,
+				531,
+				527
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Sc3 > Okh K40",
+			"id": 545,
+			"signalId": 563,
+			"type": "PC",
+			"nextSignal": "block",
+			"nextSignalId": 578,
+			"turnouts": [
+				{
+					"block": 502,
+					"position": "+"
+				},
+				{
+					"block": 504,
+					"position": "+"
+				},
+				{
+					"block": 505,
+					"position": "-"
+				},
+				{
+					"block": 507,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				530,
+				531,
+				532,
+				539
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Sc101 > Okh K40",
+			"id": 546,
+			"signalId": 565,
+			"type": "PC",
+			"nextSignal": "block",
+			"nextSignalId": 578,
+			"turnouts": [
+				{
+					"block": 504,
+					"position": "-"
+				},
+				{
+					"block": 505,
+					"position": "-"
+				},
+				{
+					"block": 507,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				530,
+				531,
+				532,
+				539
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Lc40 > Okh K3",
+			"id": 547,
+			"signalId": 577,
+			"type": "PC",
+			"nextSignal": "block",
+			"nextSignalId": 564,
+			"turnouts": [
+				{
+					"block": 507,
+					"position": "+"
+				},
+				{
+					"block": 505,
+					"position": "-"
+				},
+				{
+					"block": 504,
+					"position": "+"
+				},
+				{
+					"block": 502,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				532,
+				531,
+				530,
+				528
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Lc1d > Okh K3",
+			"id": 548,
+			"signalId": 561,
+			"type": "PC",
+			"nextSignal": "block",
+			"nextSignalId": 564,
+			"turnouts": [
+				{
+					"block": 506,
+					"position": "+"
+				},
+				{
+					"block": 505,
+					"position": "+"
+				},
+				{
+					"block": 504,
+					"position": "+"
+				},
+				{
+					"block": 502,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				531,
+				530,
+				528
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": false
+		},
+		{
+			"name": "Okh Lc2d > Okh K3",
+			"id": 549,
+			"signalId": 562,
+			"type": "PC",
+			"nextSignal": "block",
+			"nextSignalId": 564,
+			"turnouts": [
+				{
+					"block": 506,
+					"position": "-"
+				},
+				{
+					"block": 505,
+					"position": "+"
+				},
+				{
+					"block": 504,
+					"position": "+"
+				},
+				{
+					"block": 502,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				531,
+				530,
+				528
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Se2 > Okh K1d",
+			"id": 550,
+			"signalId": 567,
+			"type": "PC",
+			"nextSignal": "-",
+			"tracks": [
+				523
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": false
+		},
+		{
+			"name": "Okh Se1 > Okh K2d",
+			"id": 551,
+			"signalId": 566,
+			"type": "PC",
+			"nextSignal": "-",
+			"tracks": [
+				527
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": false
+		},
+		{
+			"name": "Okh Se3 > Okh K3",
+			"id": 552,
+			"signalId": 568,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 508,
+					"position": "+"
+				},
+				{
+					"block": 507,
+					"position": "-"
+				},
+				{
+					"block": 505,
+					"position": "-"
+				},
+				{
+					"block": 504,
+					"position": "+"
+				},
+				{
+					"block": 502,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				532,
+				531,
+				530,
+				528
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Se3 > Okh K200",
+			"id": 553,
+			"signalId": 568,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 508,
+					"position": "+"
+				},
+				{
+					"block": 507,
+					"position": "-"
+				},
+				{
+					"block": 505,
+					"position": "-"
+				},
+				{
+					"block": 504,
+					"position": "+"
+				},
+				{
+					"block": 502,
+					"position": "-"
+				},
+				{
+					"block": 503,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				532,
+				531,
+				530,
+				540
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Se3 > Okh K202",
+			"id": 554,
+			"signalId": 568,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 508,
+					"position": "+"
+				},
+				{
+					"block": 507,
+					"position": "-"
+				},
+				{
+					"block": 505,
+					"position": "-"
+				},
+				{
+					"block": 504,
+					"position": "+"
+				},
+				{
+					"block": 502,
+					"position": "-"
+				},
+				{
+					"block": 503,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				532,
+				531,
+				530,
+				541
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Sc3 > Okh K50",
+			"id": 555,
+			"signalId": 563,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 502,
+					"position": "+"
+				},
+				{
+					"block": 504,
+					"position": "+"
+				},
+				{
+					"block": 505,
+					"position": "-"
+				},
+				{
+					"block": 506,
+					"position": "+"
+				},
+				{
+					"block": 508,
+					"position": "+"
+				},
+				{
+					"block": 507,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				530,
+				531,
+				532,
+				535
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Se8 > Okh K50",
+			"id": 556,
+			"signalId": 573,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 503,
+					"position": "+"
+				},
+				{
+					"block": 502,
+					"position": "-"
+				},
+				{
+					"block": 504,
+					"position": "+"
+				},
+				{
+					"block": 505,
+					"position": "-"
+				},
+				{
+					"block": 508,
+					"position": "+"
+				},
+				{
+					"block": 507,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				530,
+				531,
+				532,
+				535
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Se9 > Okh K50",
+			"id": 557,
+			"signalId": 574,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 502,
+					"position": "-"
+				},
+				{
+					"block": 503,
+					"position": "-"
+				},
+				{
+					"block": 504,
+					"position": "+"
+				},
+				{
+					"block": 505,
+					"position": "-"
+				},
+				{
+					"block": 508,
+					"position": "+"
+				},
+				{
+					"block": 507,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				530,
+				531,
+				532,
+				535
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Se4 > Okh K3",
+			"id": 558,
+			"signalId": 569,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 507,
+					"position": "-"
+				},
+				{
+					"block": 505,
+					"position": "-"
+				},
+				{
+					"block": 504,
+					"position": "+"
+				},
+				{
+					"block": 502,
+					"position": "+"
+				},
+				{
+					"block": 508,
+					"position": "-"
+				},
+				{
+					"block": 509,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				532,
+				531,
+				530,
+				528
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Se4 > Okh K200",
+			"id": 559,
+			"signalId": 569,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 507,
+					"position": "-"
+				},
+				{
+					"block": 505,
+					"position": "-"
+				},
+				{
+					"block": 504,
+					"position": "+"
+				},
+				{
+					"block": 502,
+					"position": "-"
+				},
+				{
+					"block": 503,
+					"position": "+"
+				},
+				{
+					"block": 508,
+					"position": "-"
+				},
+				{
+					"block": 509,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				532,
+				531,
+				530,
+				540
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Se4 > Okh K202",
+			"id": 560,
+			"signalId": 569,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 507,
+					"position": "-"
+				},
+				{
+					"block": 505,
+					"position": "-"
+				},
+				{
+					"block": 504,
+					"position": "+"
+				},
+				{
+					"block": 502,
+					"position": "-"
+				},
+				{
+					"block": 503,
+					"position": "-"
+				},
+				{
+					"block": 508,
+					"position": "-"
+				},
+				{
+					"block": 509,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				532,
+				531,
+				530,
+				541
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Sc3 > Okh K52",
+			"id": 561,
+			"signalId": 563,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 502,
+					"position": "+"
+				},
+				{
+					"block": 504,
+					"position": "+"
+				},
+				{
+					"block": 505,
+					"position": "-"
+				},
+				{
+					"block": 506,
+					"position": "+"
+				},
+				{
+					"block": 508,
+					"position": "-"
+				},
+				{
+					"block": 509,
+					"position": "-"
+				},
+				{
+					"block": 507,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				530,
+				531,
+				532,
+				536
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Se8 > Okh K52",
+			"id": 562,
+			"signalId": 573,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 503,
+					"position": "+"
+				},
+				{
+					"block": 502,
+					"position": "-"
+				},
+				{
+					"block": 504,
+					"position": "+"
+				},
+				{
+					"block": 505,
+					"position": "-"
+				},
+				{
+					"block": 507,
+					"position": "-"
+				},
+				{
+					"block": 509,
+					"position": "-"
+				},
+				{
+					"block": 508,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				530,
+				531,
+				532,
+				536
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Se9 > Okh K52",
+			"id": 563,
+			"signalId": 574,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 502,
+					"position": "-"
+				},
+				{
+					"block": 503,
+					"position": "-"
+				},
+				{
+					"block": 504,
+					"position": "+"
+				},
+				{
+					"block": 505,
+					"position": "-"
+				},
+				{
+					"block": 507,
+					"position": "-"
+				},
+				{
+					"block": 508,
+					"position": "-"
+				},
+				{
+					"block": 509,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				530,
+				531,
+				532,
+				536
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Se5 > Okh K3",
+			"id": 564,
+			"signalId": 570,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 507,
+					"position": "-"
+				},
+				{
+					"block": 505,
+					"position": "-"
+				},
+				{
+					"block": 504,
+					"position": "+"
+				},
+				{
+					"block": 502,
+					"position": "+"
+				},
+				{
+					"block": 508,
+					"position": "-"
+				},
+				{
+					"block": 509,
+					"position": "+"
+				},
+				{
+					"block": 510,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				532,
+				531,
+				530,
+				528
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Se5 > Okh K200",
+			"id": 565,
+			"signalId": 570,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 507,
+					"position": "-"
+				},
+				{
+					"block": 505,
+					"position": "-"
+				},
+				{
+					"block": 504,
+					"position": "+"
+				},
+				{
+					"block": 502,
+					"position": "-"
+				},
+				{
+					"block": 503,
+					"position": "+"
+				},
+				{
+					"block": 508,
+					"position": "-"
+				},
+				{
+					"block": 509,
+					"position": "+"
+				},
+				{
+					"block": 510,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				532,
+				531,
+				530,
+				540
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Se5 > Okh K202",
+			"id": 566,
+			"signalId": 570,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 507,
+					"position": "-"
+				},
+				{
+					"block": 505,
+					"position": "-"
+				},
+				{
+					"block": 504,
+					"position": "+"
+				},
+				{
+					"block": 502,
+					"position": "-"
+				},
+				{
+					"block": 503,
+					"position": "-"
+				},
+				{
+					"block": 508,
+					"position": "-"
+				},
+				{
+					"block": 509,
+					"position": "+"
+				},
+				{
+					"block": 510,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				532,
+				531,
+				530,
+				541
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Sc3 > Okh K54",
+			"id": 567,
+			"signalId": 563,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 502,
+					"position": "+"
+				},
+				{
+					"block": 504,
+					"position": "+"
+				},
+				{
+					"block": 505,
+					"position": "-"
+				},
+				{
+					"block": 506,
+					"position": "+"
+				},
+				{
+					"block": 508,
+					"position": "-"
+				},
+				{
+					"block": 509,
+					"position": "+"
+				},
+				{
+					"block": 510,
+					"position": "+"
+				},
+				{
+					"block": 507,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				530,
+				531,
+				532,
+				537
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Se8 > Okh K54",
+			"id": 568,
+			"signalId": 573,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 503,
+					"position": "+"
+				},
+				{
+					"block": 502,
+					"position": "-"
+				},
+				{
+					"block": 504,
+					"position": "+"
+				},
+				{
+					"block": 505,
+					"position": "-"
+				},
+				{
+					"block": 507,
+					"position": "-"
+				},
+				{
+					"block": 508,
+					"position": "-"
+				},
+				{
+					"block": 509,
+					"position": "+"
+				},
+				{
+					"block": 510,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				530,
+				531,
+				532,
+				537
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Se9 > Okh K54",
+			"id": 569,
+			"signalId": 574,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 502,
+					"position": "-"
+				},
+				{
+					"block": 503,
+					"position": "-"
+				},
+				{
+					"block": 504,
+					"position": "+"
+				},
+				{
+					"block": 505,
+					"position": "-"
+				},
+				{
+					"block": 507,
+					"position": "-"
+				},
+				{
+					"block": 508,
+					"position": "-"
+				},
+				{
+					"block": 509,
+					"position": "+"
+				},
+				{
+					"block": 510,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				530,
+				531,
+				532,
+				537
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Se6 > Okh K3",
+			"id": 570,
+			"signalId": 571,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 507,
+					"position": "-"
+				},
+				{
+					"block": 505,
+					"position": "-"
+				},
+				{
+					"block": 504,
+					"position": "+"
+				},
+				{
+					"block": 502,
+					"position": "+"
+				},
+				{
+					"block": 508,
+					"position": "-"
+				},
+				{
+					"block": 509,
+					"position": "+"
+				},
+				{
+					"block": 510,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				532,
+				531,
+				530,
+				528
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Se6 > Okh K200",
+			"id": 571,
+			"signalId": 571,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 507,
+					"position": "-"
+				},
+				{
+					"block": 505,
+					"position": "-"
+				},
+				{
+					"block": 504,
+					"position": "+"
+				},
+				{
+					"block": 502,
+					"position": "-"
+				},
+				{
+					"block": 503,
+					"position": "+"
+				},
+				{
+					"block": 508,
+					"position": "-"
+				},
+				{
+					"block": 509,
+					"position": "+"
+				},
+				{
+					"block": 510,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				532,
+				531,
+				530,
+				540
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Se6 > Okh K202",
+			"id": 572,
+			"signalId": 571,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 507,
+					"position": "-"
+				},
+				{
+					"block": 505,
+					"position": "-"
+				},
+				{
+					"block": 504,
+					"position": "+"
+				},
+				{
+					"block": 502,
+					"position": "-"
+				},
+				{
+					"block": 503,
+					"position": "-"
+				},
+				{
+					"block": 508,
+					"position": "-"
+				},
+				{
+					"block": 509,
+					"position": "+"
+				},
+				{
+					"block": 510,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				532,
+				531,
+				530,
+				541
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Sc3 > Okh K56",
+			"id": 573,
+			"signalId": 563,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 502,
+					"position": "+"
+				},
+				{
+					"block": 504,
+					"position": "+"
+				},
+				{
+					"block": 505,
+					"position": "-"
+				},
+				{
+					"block": 506,
+					"position": "+"
+				},
+				{
+					"block": 507,
+					"position": "+"
+				},
+				{
+					"block": 508,
+					"position": "-"
+				},
+				{
+					"block": 509,
+					"position": "+"
+				},
+				{
+					"block": 510,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				530,
+				531,
+				532,
+				538
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Se8 > Okh K56",
+			"id": 574,
+			"signalId": 573,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 503,
+					"position": "+"
+				},
+				{
+					"block": 502,
+					"position": "-"
+				},
+				{
+					"block": 504,
+					"position": "+"
+				},
+				{
+					"block": 505,
+					"position": "-"
+				},
+				{
+					"block": 507,
+					"position": "-"
+				},
+				{
+					"block": 508,
+					"position": "-"
+				},
+				{
+					"block": 509,
+					"position": "+"
+				},
+				{
+					"block": 510,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				530,
+				531,
+				532,
+				538
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Se9 > Okh K56",
+			"id": 575,
+			"signalId": 574,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 502,
+					"position": "-"
+				},
+				{
+					"block": 503,
+					"position": "-"
+				},
+				{
+					"block": 504,
+					"position": "+"
+				},
+				{
+					"block": 505,
+					"position": "-"
+				},
+				{
+					"block": 507,
+					"position": "-"
+				},
+				{
+					"block": 508,
+					"position": "-"
+				},
+				{
+					"block": 509,
+					"position": "+"
+				},
+				{
+					"block": 510,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				530,
+				531,
+				532,
+				538
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Se8 > Okh K1d",
+			"id": 576,
+			"signalId": 573,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 503,
+					"position": "+"
+				},
+				{
+					"block": 502,
+					"position": "-"
+				},
+				{
+					"block": 504,
+					"position": "+"
+				},
+				{
+					"block": 505,
+					"position": "+"
+				},
+				{
+					"block": 506,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				530,
+				531,
+				523
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Se9 > Okh K2d",
+			"id": 577,
+			"signalId": 574,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 503,
+					"position": "-"
+				},
+				{
+					"block": 502,
+					"position": "-"
+				},
+				{
+					"block": 504,
+					"position": "+"
+				},
+				{
+					"block": 505,
+					"position": "+"
+				},
+				{
+					"block": 506,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				530,
+				531,
+				527
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Se7 > Okh K1b",
+			"id": 578,
+			"signalId": 572,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 511,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				533,
+				521
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Sc1b > Okh K1c",
+			"id": 579,
+			"signalId": 575,
+			"type": "PC",
+			"nextSignal": "-",
+			"tracks": [
+				522
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": false
+		},
+		{
+			"name": "Okh Sc2b > Okh K2c",
+			"id": 580,
+			"signalId": 576,
+			"type": "PC",
+			"nextSignal": "-",
+			"tracks": [
+				526
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": false
+		},
+		{
+			"name": "Okh Sc101 > Okh K50",
+			"id": 581,
+			"signalId": 565,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 504,
+					"position": "-"
+				},
+				{
+					"block": 505,
+					"position": "-"
+				},
+				{
+					"block": 507,
+					"position": "-"
+				},
+				{
+					"block": 508,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				530,
+				531,
+				532,
+				535
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Sc101 > Okh K52",
+			"id": 582,
+			"signalId": 565,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 504,
+					"position": "-"
+				},
+				{
+					"block": 505,
+					"position": "-"
+				},
+				{
+					"block": 507,
+					"position": "-"
+				},
+				{
+					"block": 508,
+					"position": "-"
+				},
+				{
+					"block": 509,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				530,
+				531,
+				532,
+				536
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Sc101 > Okh K54",
+			"id": 583,
+			"signalId": 565,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 504,
+					"position": "-"
+				},
+				{
+					"block": 505,
+					"position": "-"
+				},
+				{
+					"block": 507,
+					"position": "-"
+				},
+				{
+					"block": 508,
+					"position": "-"
+				},
+				{
+					"block": 509,
+					"position": "+"
+				},
+				{
+					"block": 510,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				530,
+				531,
+				532,
+				537
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Sc101 > Okh K56",
+			"id": 584,
+			"signalId": 565,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 504,
+					"position": "-"
+				},
+				{
+					"block": 505,
+					"position": "-"
+				},
+				{
+					"block": 507,
+					"position": "-"
+				},
+				{
+					"block": 508,
+					"position": "-"
+				},
+				{
+					"block": 509,
+					"position": "+"
+				},
+				{
+					"block": 510,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				530,
+				531,
+				532,
+				538
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Lc1d > Okh K101",
+			"id": 585,
+			"signalId": 561,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 506,
+					"position": "+"
+				},
+				{
+					"block": 505,
+					"position": "+"
+				},
+				{
+					"block": 504,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				531,
+				530,
+				534
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Lc2d > Okh K101",
+			"id": 586,
+			"signalId": 562,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 506,
+					"position": "-"
+				},
+				{
+					"block": 505,
+					"position": "+"
+				},
+				{
+					"block": 504,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				531,
+				530,
+				534
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Se3 > Okh K101",
+			"id": 587,
+			"signalId": 568,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 504,
+					"position": "-"
+				},
+				{
+					"block": 505,
+					"position": "-"
+				},
+				{
+					"block": 507,
+					"position": "-"
+				},
+				{
+					"block": 508,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				532,
+				531,
+				530,
+				534
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Se4 > Okh K101",
+			"id": 588,
+			"signalId": 569,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 504,
+					"position": "-"
+				},
+				{
+					"block": 505,
+					"position": "-"
+				},
+				{
+					"block": 507,
+					"position": "-"
+				},
+				{
+					"block": 508,
+					"position": "-"
+				},
+				{
+					"block": 509,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				532,
+				531,
+				530,
+				534
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Se5 > Okh K101",
+			"id": 589,
+			"signalId": 570,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 504,
+					"position": "-"
+				},
+				{
+					"block": 505,
+					"position": "-"
+				},
+				{
+					"block": 507,
+					"position": "-"
+				},
+				{
+					"block": 508,
+					"position": "-"
+				},
+				{
+					"block": 509,
+					"position": "+"
+				},
+				{
+					"block": 510,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				532,
+				531,
+				530,
+				534
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Se6 > Okh K101",
+			"id": 590,
+			"signalId": 571,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 504,
+					"position": "-"
+				},
+				{
+					"block": 505,
+					"position": "-"
+				},
+				{
+					"block": 507,
+					"position": "-"
+				},
+				{
+					"block": 508,
+					"position": "-"
+				},
+				{
+					"block": 509,
+					"position": "+"
+				},
+				{
+					"block": 510,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				532,
+				531,
+				530,
+				534
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Lc40 > Okh K101",
+			"id": 591,
+			"signalId": 577,
+			"type": "PC",
+			"nextSignal": "-",
+			"turnouts": [
+				{
+					"block": 507,
+					"position": "+"
+				},
+				{
+					"block": 505,
+					"position": "-"
+				},
+				{
+					"block": 504,
+					"position": "-"
+				}
+			],
+			"tracks": [
+				532,
+				531,
+				530,
+				534
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		},
+		{
+			"name": "Okh Se9 > Okh K1d",
+			"id": 592,
+			"signalId": 574,
+			"type": "PC",
+			"nextSignal": "block",
+			"nextSignalId": 559,
+			"turnouts": [
+				{
+					"block": 503,
+					"position": "-"
+				},
+				{
+					"block": 502,
+					"position": "-"
+				},
+				{
+					"block": 504,
+					"position": "+"
+				},
+				{
+					"block": 505,
+					"position": "+"
+				},
+				{
+					"block": 506,
+					"position": "+"
+				}
+			],
+			"tracks": [
+				530,
+				531,
+				523
+			],
+			"speedGo": 40,
+			"speedStop": 40,
+			"turn": true
+		}
+	]
+}

@@ -1,0 +1,3258 @@
+{
+	"blocks": [
+		{
+			"name": "Bs 1",
+			"id": 120,
+			"type": "turnout",
+			"areas": [
+				"Bs"
+			],
+			"rcs": {
+				"in+": {
+					"board": 107,
+					"port": 9
+				},
+				"in-": {
+					"board": 107,
+					"port": 8
+				},
+				"out+": {
+					"board": 107,
+					"port": 8
+				},
+				"out-": {
+					"board": 107,
+					"port": 9
+				}
+			},
+			"track": 157
+		},
+		{
+			"name": "Bs 2",
+			"id": 121,
+			"type": "turnout",
+			"areas": [
+				"Bs"
+			],
+			"rcs": {
+				"in+": {
+					"board": 107,
+					"port": 10
+				},
+				"in-": {
+					"board": 107,
+					"port": 11
+				},
+				"out+": {
+					"board": 107,
+					"port": 11
+				},
+				"out-": {
+					"board": 107,
+					"port": 10
+				}
+			},
+			"track": 157,
+			"coupling": 126
+		},
+		{
+			"name": "Bs 4",
+			"id": 122,
+			"type": "turnout",
+			"areas": [
+				"Bs"
+			],
+			"rcs": {
+				"in+": {
+					"board": 107,
+					"port": 12
+				},
+				"in-": {
+					"board": 107,
+					"port": 13
+				},
+				"out+": {
+					"board": 107,
+					"port": 13
+				},
+				"out-": {
+					"board": 107,
+					"port": 12
+				}
+			},
+			"track": 151,
+			"lock": 185,
+			"lockPosition": "+"
+		},
+		{
+			"name": "Bs 5",
+			"id": 123,
+			"type": "turnout",
+			"areas": [
+				"Bs"
+			],
+			"rcs": {
+				"in+": {
+					"board": 107,
+					"port": 14
+				},
+				"in-": {
+					"board": 107,
+					"port": 15
+				},
+				"out+": {
+					"board": 107,
+					"port": 15
+				},
+				"out-": {
+					"board": 107,
+					"port": 14
+				}
+			},
+			"track": 151,
+			"lock": 185,
+			"lockPosition": "+"
+		},
+		{
+			"name": "Bs 6",
+			"id": 124,
+			"type": "turnout",
+			"areas": [
+				"Bs"
+			],
+			"rcs": {
+				"in+": {
+					"board": 108,
+					"port": 9
+				},
+				"in-": {
+					"board": 108,
+					"port": 8
+				},
+				"out+": {
+					"board": 108,
+					"port": 8
+				},
+				"out-": {
+					"board": 108,
+					"port": 9
+				}
+			},
+			"track": 155
+		},
+		{
+			"name": "Bs 7",
+			"id": 125,
+			"type": "turnout",
+			"areas": [
+				"Bs"
+			],
+			"rcs": {
+				"in+": {
+					"board": 108,
+					"port": 11
+				},
+				"in-": {
+					"board": 108,
+					"port": 10
+				},
+				"out+": {
+					"board": 108,
+					"port": 10
+				},
+				"out-": {
+					"board": 108,
+					"port": 11
+				}
+			},
+			"track": 155
+		},
+		{
+			"name": "Bs 3",
+			"id": 126,
+			"type": "turnout",
+			"areas": [
+				"Bs"
+			],
+			"rcs": {
+				"in+": {
+					"board": 107,
+					"port": 10
+				},
+				"in-": {
+					"board": 107,
+					"port": 11
+				},
+				"out+": {
+					"board": 107,
+					"port": 11
+				},
+				"out-": {
+					"board": 107,
+					"port": 10
+				}
+			},
+			"track": 158,
+			"coupling": 121
+		},
+		{
+			"name": "Bs 1K",
+			"id": 150,
+			"type": "track",
+			"areas": [
+				"Bs"
+			],
+			"rcs": [
+				{
+					"board": 107,
+					"port": 0
+				},
+				{
+					"board": 108,
+					"port": 7
+				},
+				{
+					"board": 108,
+					"port": 6
+				}
+			],
+			"length": 105,
+			"booster": "Bs",
+			"maxTrains": 1,
+			"stationTrack": true,
+			"trackName": "1"
+		},
+		{
+			"name": "Bs 2K",
+			"id": 151,
+			"type": "track",
+			"areas": [
+				"Bs"
+			],
+			"rcs": [
+				{
+					"board": 107,
+					"port": 1
+				},
+				{
+					"board": 108,
+					"port": 4
+				}
+			],
+			"length": 135,
+			"booster": "Bs",
+			"maxTrains": 1,
+			"stationTrack": true,
+			"trackName": "2"
+		},
+		{
+			"name": "Bs 3K",
+			"id": 152,
+			"type": "track",
+			"areas": [
+				"Bs"
+			],
+			"rcs": [
+				{
+					"board": 108,
+					"port": 12
+				}
+			],
+			"length": 120,
+			"booster": "Bs",
+			"maxTrains": 1,
+			"stationTrack": true,
+			"trackName": "3"
+		},
+		{
+			"name": "Bs 4aK",
+			"id": 153,
+			"type": "track",
+			"areas": [
+				"Bs"
+			],
+			"rcs": [],
+			"length": 50,
+			"booster": "Bs",
+			"maxTrains": 1,
+			"stationTrack": true,
+			"trackName": "4a"
+		},
+		{
+			"name": "Bs 4bK",
+			"id": 154,
+			"type": "track",
+			"areas": [
+				"Bs"
+			],
+			"rcs": [
+				{
+					"board": 108,
+					"port": 5
+				}
+			],
+			"length": 120,
+			"booster": "Bs",
+			"maxTrains": 1,
+			"stationTrack": true,
+			"trackName": "4b"
+		},
+		{
+			"name": "Bs V6-7",
+			"id": 155,
+			"type": "track",
+			"areas": [
+				"Bs"
+			],
+			"rcs": [
+				{
+					"board": 108,
+					"port": 2
+				}
+			],
+			"length": 50,
+			"booster": "Bs",
+			"maxTrains": 1,
+			"stationTrack": false
+		},
+		{
+			"name": "Bs SK",
+			"id": 156,
+			"type": "track",
+			"areas": [
+				"Bs"
+			],
+			"rcs": [
+				{
+					"board": 108,
+					"port": 3
+				}
+			],
+			"length": 50,
+			"booster": "Bs",
+			"maxTrains": 1,
+			"stationTrack": false
+		},
+		{
+			"name": "Bs V1-2",
+			"id": 157,
+			"type": "track",
+			"areas": [
+				"Bs"
+			],
+			"rcs": [
+				{
+					"board": 107,
+					"port": 2
+				}
+			],
+			"length": 40,
+			"booster": "Bs",
+			"maxTrains": 1,
+			"stationTrack": false
+		},
+		{
+			"name": "Bs V3",
+			"id": 158,
+			"type": "track",
+			"areas": [
+				"Bs"
+			],
+			"rcs": [
+				{
+					"board": 107,
+					"port": 3
+				}
+			],
+			"length": 20,
+			"booster": "Bs",
+			"maxTrains": 1,
+			"stationTrack": false
+		},
+		{
+			"name": "Bs LK",
+			"id": 159,
+			"type": "track",
+			"areas": [
+				"Bs"
+			],
+			"rcs": [
+				{
+					"board": 107,
+					"port": 4
+				}
+			],
+			"length": 50,
+			"booster": "Bs",
+			"maxTrains": 1,
+			"stationTrack": false
+		},
+		{
+			"name": "Bs PriblL",
+			"id": 160,
+			"type": "railwayTrack",
+			"areas": [
+				"Bs"
+			],
+			"rcs": [
+				{
+					"board": 107,
+					"port": 6
+				}
+			],
+			"length": 120,
+			"booster": "Bs",
+			"maxTrains": 1,
+			"stationTrack": false
+		},
+		{
+			"name": "Bs TratL",
+			"id": 161,
+			"type": "railwayTrack",
+			"areas": [
+				"Bs"
+			],
+			"rcs": [
+				{
+					"board": 107,
+					"port": 7
+				}
+			],
+			"length": 521,
+			"booster": "Bs",
+			"maxTrains": 1,
+			"stationTrack": false
+		},
+		{
+			"name": "Bs 3aK",
+			"id": 162,
+			"type": "track",
+			"areas": [
+				"Bs"
+			],
+			"rcs": [
+				{
+					"board": 107,
+					"port": 5
+				}
+			],
+			"length": 30,
+			"booster": "Bs",
+			"maxTrains": 1,
+			"stationTrack": true,
+			"trackName": "3a"
+		},
+		{
+			"name": "Bs L1",
+			"id": 170,
+			"type": "signal",
+			"areas": [
+				"Bs"
+			],
+			"symbolType": 0,
+			"track": 150,
+			"direction": 0
+		},
+		{
+			"name": "Bs S1",
+			"id": 171,
+			"type": "signal",
+			"areas": [
+				"Bs"
+			],
+			"symbolType": 0,
+			"track": 150,
+			"direction": 1
+		},
+		{
+			"name": "Bs L2",
+			"id": 172,
+			"type": "signal",
+			"areas": [
+				"Bs"
+			],
+			"symbolType": 0,
+			"track": 151,
+			"direction": 0
+		},
+		{
+			"name": "Bs S2",
+			"id": 173,
+			"type": "signal",
+			"areas": [
+				"Bs"
+			],
+			"symbolType": 0,
+			"track": 151,
+			"direction": 1
+		},
+		{
+			"name": "Bs Se3",
+			"id": 174,
+			"type": "signal",
+			"areas": [
+				"Bs"
+			],
+			"symbolType": 1,
+			"track": 152,
+			"direction": 1
+		},
+		{
+			"name": "Bs Se4",
+			"id": 175,
+			"type": "signal",
+			"areas": [
+				"Bs"
+			],
+			"symbolType": 1,
+			"track": 152,
+			"direction": 0
+		},
+		{
+			"name": "Bs Se0",
+			"id": 176,
+			"type": "signal",
+			"areas": [
+				"Bs"
+			],
+			"symbolType": 1,
+			"track": 159,
+			"direction": 1
+		},
+		{
+			"name": "Bs Se1",
+			"id": 178,
+			"type": "signal",
+			"areas": [
+				"Bs"
+			],
+			"symbolType": 1,
+			"track": 159,
+			"direction": 0
+		},
+		{
+			"name": "Bs Se5",
+			"id": 179,
+			"type": "signal",
+			"areas": [
+				"Bs"
+			],
+			"symbolType": 1,
+			"track": 156,
+			"direction": 1
+		},
+		{
+			"name": "Bs L",
+			"id": 180,
+			"type": "signal",
+			"areas": [
+				"Bs"
+			],
+			"symbolType": 0,
+			"track": 160,
+			"direction": 0
+		},
+		{
+			"name": "Bs Se2",
+			"id": 181,
+			"type": "signal",
+			"areas": [
+				"Bs"
+			],
+			"symbolType": 1,
+			"track": 162,
+			"direction": 0
+		},
+		{
+			"name": "Bs EZ 4/5",
+			"id": 185,
+			"type": "lock",
+			"areas": [
+				"Bs"
+			]
+		},
+		{
+			"name": "Sm1 1",
+			"id": 200,
+			"type": "turnout",
+			"areas": [
+				"Sm"
+			],
+			"rcs": {
+				"in+": {
+					"board": 120,
+					"port": 1
+				},
+				"in-": {
+					"board": 120,
+					"port": 0
+				},
+				"out+": {
+					"board": 120,
+					"port": 1
+				},
+				"out-": {
+					"board": 120,
+					"port": 0
+				}
+			},
+			"track": 211
+		},
+		{
+			"name": "Sm1 2",
+			"id": 201,
+			"type": "turnout",
+			"areas": [
+				"Sm"
+			],
+			"rcs": {
+				"in+": {
+					"board": 120,
+					"port": 4
+				},
+				"in-": {
+					"board": 120,
+					"port": 5
+				},
+				"out+": {
+					"board": 120,
+					"port": 5
+				},
+				"out-": {
+					"board": 120,
+					"port": 4
+				}
+			},
+			"track": 212
+		},
+		{
+			"name": "Sm1 3",
+			"id": 202,
+			"type": "turnout",
+			"areas": [
+				"Ku"
+			],
+			"rcs": {
+				"in+": {
+					"board": 120,
+					"port": 3
+				},
+				"in-": {
+					"board": 120,
+					"port": 2
+				},
+				"out+": {
+					"board": 120,
+					"port": 2
+				},
+				"out-": {
+					"board": 120,
+					"port": 3
+				}
+			},
+			"track": 213
+		},
+		{
+			"name": "Sm1 PriblS",
+			"id": 210,
+			"type": "railwayTrack",
+			"rcs": [
+				{
+					"board": 120,
+					"port": 9
+				}
+			],
+			"length": 150,
+			"booster": "Ku",
+			"maxTrains": 1,
+			"stationTrack": false
+		},
+		{
+			"name": "Sm1 V1",
+			"id": 211,
+			"type": "track",
+			"areas": [
+				"Sm"
+			],
+			"rcs": [
+				{
+					"board": 120,
+					"port": 8
+				},
+				{
+					"board": 120,
+					"port": 10
+				},
+				{
+					"board": 120,
+					"port": 11
+				}
+			],
+			"length": 125,
+			"booster": "Ku",
+			"maxTrains": 1,
+			"stationTrack": false
+		},
+		{
+			"name": "Sm1 V2",
+			"id": 212,
+			"type": "track",
+			"areas": [
+				"Sm"
+			],
+			"rcs": [
+				{
+					"board": 120,
+					"port": 15
+				}
+			],
+			"length": 20,
+			"booster": "Ku",
+			"maxTrains": 1,
+			"stationTrack": false
+		},
+		{
+			"name": "Sm1 V3",
+			"id": 213,
+			"type": "track",
+			"areas": [
+				"Sm"
+			],
+			"rcs": [
+				{
+					"board": 120,
+					"port": 6
+				}
+			],
+			"length": 20,
+			"booster": "Ku",
+			"maxTrains": 1,
+			"stationTrack": false
+		},
+		{
+			"name": "Sm1 K1",
+			"id": 214,
+			"type": "track",
+			"areas": [
+				"Sm"
+			],
+			"rcs": [
+				{
+					"board": 120,
+					"port": 14
+				},
+				{
+					"board": 120,
+					"port": 12
+				}
+			],
+			"length": 200,
+			"loop": true,
+			"booster": "Ku",
+			"maxTrains": 1,
+			"stationTrack": true,
+			"trackName": "1"
+		},
+		{
+			"name": "Sm1 K2",
+			"id": 215,
+			"type": "track",
+			"areas": [
+				"Sm"
+			],
+			"rcs": [
+				{
+					"board": 120,
+					"port": 7
+				},
+				{
+					"board": 120,
+					"port": 13
+				}
+			],
+			"length": 200,
+			"loop": true,
+			"booster": "Ku",
+			"maxTrains": 1,
+			"stationTrack": true,
+			"trackName": "2"
+		},
+		{
+			"name": "Sm1 L",
+			"id": 230,
+			"type": "signal",
+			"areas": [
+				"Sm"
+			],
+			"symbolType": 0,
+			"track": 320,
+			"direction": 0
+		},
+		{
+			"name": "Sm1 1S",
+			"id": 231,
+			"type": "signal",
+			"areas": [
+				"Sm"
+			],
+			"symbolType": 0,
+			"track": 214,
+			"direction": 1
+		},
+		{
+			"name": "Sm1 2S",
+			"id": 232,
+			"type": "signal",
+			"areas": [
+				"Sm"
+			],
+			"symbolType": 0,
+			"track": 215,
+			"direction": 1
+		},
+		{
+			"name": "Ku 1",
+			"id": 300,
+			"type": "turnout",
+			"areas": [
+				"Ku"
+			],
+			"rcs": {
+				"in+": {
+					"board": 131,
+					"port": 14
+				},
+				"in-": {
+					"board": 131,
+					"port": 15
+				},
+				"out+": {
+					"board": 131,
+					"port": 9
+				},
+				"out-": {
+					"board": 131,
+					"port": 8
+				}
+			},
+			"track": 314
+		},
+		{
+			"name": "Ku 2",
+			"id": 301,
+			"type": "turnout",
+			"areas": [
+				"Ku"
+			],
+			"rcs": {
+				"in+": {
+					"board": 131,
+					"port": 10
+				},
+				"in-": {
+					"board": 131,
+					"port": 11
+				},
+				"out+": {
+					"board": 131,
+					"port": 10
+				},
+				"out-": {
+					"board": 131,
+					"port": 11
+				}
+			},
+			"track": 310,
+			"lock": 360,
+			"lockPosition": "+"
+		},
+		{
+			"name": "Ku 3",
+			"id": 302,
+			"type": "turnout",
+			"areas": [
+				"Ku"
+			],
+			"rcs": {
+				"in+": {
+					"board": 131,
+					"port": 12
+				},
+				"in-": {
+					"board": 131,
+					"port": 13
+				},
+				"out+": {
+					"board": 131,
+					"port": 12
+				},
+				"out-": {
+					"board": 131,
+					"port": 13
+				}
+			},
+			"track": 316
+		},
+		{
+			"name": "Ku 4",
+			"id": 303,
+			"type": "turnout",
+			"areas": [
+				"Ku"
+			],
+			"rcs": {
+				"in+": {
+					"board": 129,
+					"port": 8
+				},
+				"in-": {
+					"board": 129,
+					"port": 9
+				},
+				"out+": {
+					"board": 129,
+					"port": 8
+				},
+				"out-": {
+					"board": 129,
+					"port": 9
+				}
+			},
+			"track": 317
+		},
+		{
+			"name": "Ku 5",
+			"id": 304,
+			"type": "turnout",
+			"areas": [
+				"Ku"
+			],
+			"rcs": {
+				"in+": {
+					"board": 129,
+					"port": 10
+				},
+				"in-": {
+					"board": 129,
+					"port": 11
+				},
+				"out+": {
+					"board": 129,
+					"port": 10
+				},
+				"out-": {
+					"board": 129,
+					"port": 11
+				}
+			},
+			"track": 318
+		},
+		{
+			"name": "Ku 6",
+			"id": 305,
+			"type": "turnout",
+			"areas": [
+				"Ku"
+			],
+			"rcs": {
+				"in+": {
+					"board": 129,
+					"port": 12
+				},
+				"in-": {
+					"board": 129,
+					"port": 13
+				},
+				"out+": {
+					"board": 129,
+					"port": 12
+				},
+				"out-": {
+					"board": 129,
+					"port": 13
+				}
+			},
+			"track": 318
+		},
+		{
+			"name": "Ku A",
+			"id": 306,
+			"type": "turnout",
+			"areas": [
+				"Ku"
+			],
+			"rcs": {
+				"in+": {
+					"board": 128,
+					"port": 0
+				},
+				"in-": {
+					"board": 128,
+					"port": 1
+				},
+				"out+": {
+					"board": 128,
+					"port": 0
+				},
+				"out-": {
+					"board": 128,
+					"port": 1
+				}
+			},
+			"track": 319
+		},
+		{
+			"name": "Ku 1K",
+			"id": 310,
+			"type": "track",
+			"areas": [
+				"Ku"
+			],
+			"rcs": [
+				{
+					"board": 131,
+					"port": 6
+				},
+				{
+					"board": 130,
+					"port": 15
+				},
+				{
+					"board": 130,
+					"port": 14
+				},
+				{
+					"board": 129,
+					"port": 0
+				}
+			],
+			"length": 280,
+			"booster": "Ku",
+			"maxTrains": 2,
+			"stationTrack": true,
+			"trackName": "1"
+		},
+		{
+			"name": "Ku 2K",
+			"id": 311,
+			"type": "track",
+			"areas": [
+				"Ku"
+			],
+			"rcs": [
+				{
+					"board": 129,
+					"port": 6
+				},
+				{
+					"board": 130,
+					"port": 13
+				}
+			],
+			"length": 167,
+			"booster": "Ku",
+			"maxTrains": 2,
+			"stationTrack": true,
+			"trackName": "2"
+		},
+		{
+			"name": "Ku 3K",
+			"id": 312,
+			"type": "track",
+			"areas": [
+				"Ku"
+			],
+			"rcs": [],
+			"length": 210,
+			"booster": "Ku",
+			"maxTrains": 2,
+			"stationTrack": true,
+			"trackName": "3"
+		},
+		{
+			"name": "Ku 4K",
+			"id": 313,
+			"type": "track",
+			"areas": [
+				"Ku"
+			],
+			"rcs": [
+				{
+					"board": 130,
+					"port": 12
+				},
+				{
+					"board": 129,
+					"port": 7
+				}
+			],
+			"length": 167,
+			"booster": "Ku",
+			"maxTrains": 2,
+			"stationTrack": true,
+			"trackName": "4"
+		},
+		{
+			"name": "Ku V1",
+			"id": 314,
+			"type": "track",
+			"areas": [
+				"Ku"
+			],
+			"rcs": [
+				{
+					"board": 131,
+					"port": 7
+				}
+			],
+			"length": 30,
+			"booster": "Ku",
+			"maxTrains": 1,
+			"stationTrack": false
+		},
+		{
+			"name": "Ku 2aK",
+			"id": 315,
+			"type": "track",
+			"areas": [
+				"Ku"
+			],
+			"rcs": [
+				{
+					"board": 131,
+					"port": 9
+				}
+			],
+			"length": 40,
+			"booster": "Ku",
+			"maxTrains": 1,
+			"stationTrack": false
+		},
+		{
+			"name": "Ku V3",
+			"id": 316,
+			"type": "track",
+			"areas": [
+				"Ku"
+			],
+			"rcs": [
+				{
+					"board": 131,
+					"port": 8
+				}
+			],
+			"length": 30,
+			"booster": "Ku",
+			"maxTrains": 1,
+			"stationTrack": false
+		},
+		{
+			"name": "Ku V4",
+			"id": 317,
+			"type": "track",
+			"areas": [
+				"Ku"
+			],
+			"rcs": [
+				{
+					"board": 129,
+					"port": 1
+				}
+			],
+			"length": 30,
+			"booster": "Ku",
+			"maxTrains": 1,
+			"stationTrack": false
+		},
+		{
+			"name": "Ku V5-6",
+			"id": 318,
+			"type": "track",
+			"areas": [
+				"Ku"
+			],
+			"rcs": [
+				{
+					"board": 129,
+					"port": 4
+				}
+			],
+			"length": 30,
+			"booster": "Ku",
+			"maxTrains": 1,
+			"stationTrack": false
+		},
+		{
+			"name": "Ku VA",
+			"id": 319,
+			"type": "track",
+			"areas": [
+				"Ku"
+			],
+			"rcs": [
+				{
+					"board": 128,
+					"port": 2
+				}
+			],
+			"length": 30,
+			"booster": "Ku",
+			"maxTrains": 1,
+			"stationTrack": false
+		},
+		{
+			"name": "Ku AR",
+			"id": 320,
+			"type": "railwayTrack",
+			"areas": [
+				"Ku",
+				"Sm"
+			],
+			"rcs": [
+				{
+					"board": 128,
+					"port": 3
+				},
+				{
+					"board": 128,
+					"port": 5
+				},
+				{
+					"board": 120,
+					"port": 9
+				}
+			],
+			"length": 75,
+			"booster": "Ku",
+			"maxTrains": 1,
+			"stationTrack": false
+		},
+		{
+			"name": "Ku SK",
+			"id": 321,
+			"type": "track",
+			"areas": [
+				"Ku"
+			],
+			"rcs": [
+				{
+					"board": 128,
+					"port": 4
+				}
+			],
+			"length": 125,
+			"booster": "Ku",
+			"maxTrains": 1,
+			"stationTrack": false
+		},
+		{
+			"name": "Ku LK",
+			"id": 322,
+			"type": "track",
+			"areas": [
+				"Ku"
+			],
+			"rcs": [
+				{
+					"board": 131,
+					"port": 5
+				}
+			],
+			"length": 125,
+			"booster": "Ku",
+			"maxTrains": 1,
+			"stationTrack": false
+		},
+		{
+			"name": "Ku PriblL",
+			"id": 323,
+			"type": "railwayTrack",
+			"areas": [
+				"Ku",
+				"Okh"
+			],
+			"rcs": [
+				{
+					"board": 131,
+					"port": 4
+				}
+			],
+			"length": 130,
+			"booster": "Ku",
+			"maxTrains": 1,
+			"stationTrack": false
+		},
+		{
+			"name": "Ku TratLS",
+			"id": 325,
+			"type": "railwayTrack",
+			"rcs": [
+				{
+					"board": 128,
+					"port": 6
+				}
+			],
+			"length": 90,
+			"booster": "Ku",
+			"maxTrains": 1,
+			"stationTrack": false
+		},
+		{
+			"name": "Ku PriblBS",
+			"id": 326,
+			"type": "railwayTrack",
+			"areas": [
+				"Bs",
+				"Ku"
+			],
+			"rcs": [
+				{
+					"board": 128,
+					"port": 7
+				}
+			],
+			"length": 130,
+			"booster": "Ku",
+			"maxTrains": 1,
+			"stationTrack": false
+		},
+		{
+			"name": "Ku L1",
+			"id": 330,
+			"type": "signal",
+			"areas": [
+				"Ku"
+			],
+			"symbolType": 0,
+			"track": 310,
+			"direction": 0
+		},
+		{
+			"name": "Ku S1",
+			"id": 331,
+			"type": "signal",
+			"areas": [
+				"Ku"
+			],
+			"symbolType": 0,
+			"track": 310,
+			"direction": 1
+		},
+		{
+			"name": "Ku L2",
+			"id": 332,
+			"type": "signal",
+			"areas": [
+				"Ku"
+			],
+			"symbolType": 0,
+			"track": 311,
+			"direction": 0
+		},
+		{
+			"name": "Ku S2",
+			"id": 333,
+			"type": "signal",
+			"areas": [
+				"Ku"
+			],
+			"symbolType": 0,
+			"track": 311,
+			"direction": 1
+		},
+		{
+			"name": "Ku L4",
+			"id": 334,
+			"type": "signal",
+			"areas": [
+				"Ku"
+			],
+			"symbolType": 0,
+			"track": 313,
+			"direction": 0
+		},
+		{
+			"name": "Ku S4",
+			"id": 335,
+			"type": "signal",
+			"areas": [
+				"Ku"
+			],
+			"symbolType": 0,
+			"track": 313,
+			"direction": 1
+		},
+		{
+			"name": "Ku L",
+			"id": 336,
+			"type": "signal",
+			"areas": [
+				"Ku"
+			],
+			"symbolType": 0,
+			"track": 323,
+			"direction": 0
+		},
+		{
+			"name": "Ku BS",
+			"id": 337,
+			"type": "signal",
+			"areas": [
+				"Ku"
+			],
+			"symbolType": 0,
+			"track": 326,
+			"direction": 1
+		},
+		{
+			"name": "Ku Se1",
+			"id": 338,
+			"type": "signal",
+			"areas": [
+				"Ku"
+			],
+			"symbolType": 1,
+			"track": 322,
+			"direction": 0
+		},
+		{
+			"name": "Ku Se2",
+			"id": 339,
+			"type": "signal",
+			"areas": [
+				"Ku"
+			],
+			"symbolType": 1,
+			"track": 315,
+			"direction": 1
+		},
+		{
+			"name": "Ku Se3",
+			"id": 340,
+			"type": "signal",
+			"areas": [
+				"Ku"
+			],
+			"symbolType": 1,
+			"track": 315,
+			"direction": 0
+		},
+		{
+			"name": "Ku Se4",
+			"id": 341,
+			"type": "signal",
+			"areas": [
+				"Ku"
+			],
+			"symbolType": 1,
+			"track": 312,
+			"direction": 0
+		},
+		{
+			"name": "Ku Se5",
+			"id": 342,
+			"type": "signal",
+			"areas": [
+				"Ku"
+			],
+			"symbolType": 1,
+			"track": 321,
+			"direction": 1
+		},
+		{
+			"name": "Ku AS",
+			"id": 344,
+			"type": "signal",
+			"areas": [
+				"Ku"
+			],
+			"symbolType": 0,
+			"track": 320,
+			"direction": 1
+		},
+		{
+			"name": "Ku IR 2S",
+			"id": 350,
+			"type": "ir",
+			"rcs": {
+				"board": 130,
+				"port": 4
+			}
+		},
+		{
+			"name": "Ku IR 2L",
+			"id": 351,
+			"type": "ir",
+			"rcs": {
+				"board": 130,
+				"port": 3
+			}
+		},
+		{
+			"name": "Ku IR 4S",
+			"id": 352,
+			"type": "ir",
+			"rcs": {
+				"board": 130,
+				"port": 5
+			}
+		},
+		{
+			"name": "Ku IR 4L",
+			"id": 353,
+			"type": "ir",
+			"rcs": {
+				"board": 130,
+				"port": 2
+			}
+		},
+		{
+			"name": "Ku IR 1S",
+			"id": 354,
+			"type": "ir",
+			"rcs": {
+				"board": 130,
+				"port": 7
+			}
+		},
+		{
+			"name": "Ku IR Se2",
+			"id": 355,
+			"type": "ir",
+			"rcs": {
+				"board": 130,
+				"port": 6
+			}
+		},
+		{
+			"name": "Ku IR 1Sp",
+			"id": 356,
+			"type": "ir",
+			"rcs": {
+				"board": 130,
+				"port": 1
+			}
+		},
+		{
+			"name": "Ku IR 2Lp",
+			"id": 357,
+			"type": "ir",
+			"rcs": {
+				"board": 130,
+				"port": 0
+			}
+		},
+		{
+			"name": "Ku ZK1",
+			"id": 360,
+			"type": "lock",
+			"areas": [
+				"Ku"
+			]
+		},
+		{
+			"name": "Ku 2L",
+			"id": 370,
+			"type": "disconnector",
+			"areas": [
+				"Ku"
+			],
+			"rcs": {
+				"board": 130,
+				"port": 9
+			}
+		},
+		{
+			"name": "Ku 2S",
+			"id": 371,
+			"type": "disconnector",
+			"areas": [
+				"Ku"
+			],
+			"rcs": {
+				"board": 129,
+				"port": 1
+			}
+		},
+		{
+			"name": "Ku 4L",
+			"id": 372,
+			"type": "disconnector",
+			"areas": [
+				"Ku"
+			],
+			"rcs": {
+				"board": 130,
+				"port": 10
+			}
+		},
+		{
+			"name": "Ku 4S",
+			"id": 373,
+			"type": "disconnector",
+			"areas": [
+				"Ku"
+			],
+			"rcs": {
+				"board": 130,
+				"port": 15
+			}
+		},
+		{
+			"name": "Ku 1L",
+			"id": 374,
+			"type": "disconnector",
+			"areas": [
+				"Ku"
+			],
+			"rcs": {
+				"board": 130,
+				"port": 8
+			}
+		},
+		{
+			"name": "Ku 1S",
+			"id": 375,
+			"type": "disconnector",
+			"areas": [
+				"Ku"
+			],
+			"rcs": {
+				"board": 129,
+				"port": 2
+			}
+		},
+		{
+			"name": "Ku Se4",
+			"id": 376,
+			"type": "disconnector",
+			"areas": [
+				"Ku"
+			],
+			"rcs": {
+				"board": 129,
+				"port": 3
+			}
+		},
+		{
+			"name": "Ku K3A",
+			"id": 377,
+			"type": "disconnector",
+			"areas": [
+				"Ku"
+			],
+			"rcs": {
+				"board": 130,
+				"port": 11
+			}
+		},
+		{
+			"name": "Ku K3B",
+			"id": 378,
+			"type": "disconnector",
+			"areas": [
+				"Ku"
+			],
+			"rcs": {
+				"board": 130,
+				"port": 13
+			}
+		},
+		{
+			"name": "Ku K3C",
+			"id": 379,
+			"type": "disconnector",
+			"areas": [
+				"Ku"
+			],
+			"rcs": {
+				"board": 129,
+				"port": 0
+			}
+		},
+		{
+			"name": "Ku K1",
+			"id": 380,
+			"type": "disconnector",
+			"areas": [
+				"Ku"
+			],
+			"rcs": {
+				"board": 130,
+				"port": 12
+			}
+		},
+		{
+			"name": "Chu 1",
+			"id": 400,
+			"type": "turnout",
+			"areas": [
+				"Bs"
+			],
+			"rcs": {
+				"in+": {
+					"board": 110,
+					"port": 8
+				},
+				"in-": {
+					"board": 110,
+					"port": 9
+				},
+				"out+": {
+					"board": 110,
+					"port": 8
+				},
+				"out-": {
+					"board": 110,
+					"port": 9
+				}
+			},
+			"track": 422,
+			"lock": 480,
+			"lockPosition": "+"
+		},
+		{
+			"name": "Chu 2",
+			"id": 401,
+			"type": "turnout",
+			"areas": [
+				"Bs"
+			],
+			"rcs": {
+				"in+": {
+					"board": 110,
+					"port": 10
+				},
+				"in-": {
+					"board": 110,
+					"port": 11
+				},
+				"out+": {
+					"board": 110,
+					"port": 10
+				},
+				"out-": {
+					"board": 110,
+					"port": 11
+				}
+			},
+			"track": 423,
+			"lock": 480,
+			"lockPosition": "+"
+		},
+		{
+			"name": "Chu 1K",
+			"id": 420,
+			"type": "railwayTrack",
+			"areas": [
+				"Bs"
+			],
+			"rcs": [
+				{
+					"board": 110,
+					"port": 4
+				}
+			],
+			"length": 0,
+			"booster": "Chu",
+			"maxTrains": 1,
+			"stationTrack": false
+		},
+		{
+			"name": "Chu 2K",
+			"id": 421,
+			"type": "track",
+			"areas": [
+				"Bs"
+			],
+			"rcs": [
+				{
+					"board": 110,
+					"port": 5
+				}
+			],
+			"length": 0,
+			"booster": "Chu",
+			"maxTrains": 1,
+			"stationTrack": false
+		},
+		{
+			"name": "Chu V1",
+			"id": 422,
+			"type": "railwayTrack",
+			"areas": [
+				"Bs",
+				"Ku"
+			],
+			"rcs": [
+				{
+					"board": 110,
+					"port": 2
+				}
+			],
+			"length": 0,
+			"booster": "Chu",
+			"maxTrains": 1,
+			"stationTrack": false
+		},
+		{
+			"name": "Chu V2",
+			"id": 423,
+			"type": "railwayTrack",
+			"areas": [
+				"Bs"
+			],
+			"rcs": [
+				{
+					"board": 110,
+					"port": 3
+				}
+			],
+			"length": 0,
+			"booster": "Chu",
+			"maxTrains": 1,
+			"stationTrack": false
+		},
+		{
+			"name": "Chu LT1",
+			"id": 424,
+			"type": "railwayTrack",
+			"areas": [
+				"Bs",
+				"Ku"
+			],
+			"rcs": [
+				{
+					"board": 110,
+					"port": 0
+				}
+			],
+			"length": 0,
+			"booster": "Chu",
+			"maxTrains": 1,
+			"stationTrack": false
+		},
+		{
+			"name": "Chu LT2",
+			"id": 425,
+			"type": "railwayTrack",
+			"rcs": [
+				{
+					"board": 110,
+					"port": 1
+				}
+			],
+			"length": 0,
+			"booster": "Chu",
+			"maxTrains": 1,
+			"stationTrack": false
+		},
+		{
+			"name": "Chu ST1",
+			"id": 426,
+			"type": "railwayTrack",
+			"areas": [
+				"Bs"
+			],
+			"rcs": [
+				{
+					"board": 110,
+					"port": 6
+				}
+			],
+			"length": 0,
+			"booster": "Chu",
+			"maxTrains": 1,
+			"stationTrack": false
+		},
+		{
+			"name": "Chu ST2",
+			"id": 427,
+			"type": "railwayTrack",
+			"rcs": [
+				{
+					"board": 110,
+					"port": 7
+				}
+			],
+			"length": 0,
+			"booster": "Chu",
+			"maxTrains": 1,
+			"stationTrack": false
+		},
+		{
+			"name": "Chu TZast",
+			"id": 428,
+			"type": "railwayTrack",
+			"areas": [
+				"Bs",
+				"Ku"
+			],
+			"rcs": [
+				{
+					"board": 110,
+					"port": 4
+				},
+				{
+					"board": 110,
+					"port": 3
+				},
+				{
+					"board": 110,
+					"port": 6
+				}
+			],
+			"length": 0,
+			"booster": "Chu",
+			"maxTrains": 1,
+			"stationTrack": false
+		},
+		{
+			"name": "Ch Z1/2",
+			"id": 480,
+			"type": "lock",
+			"areas": [
+				"Bs"
+			]
+		},
+		{
+			"name": "Okh 1",
+			"id": 500,
+			"type": "turnout",
+			"areas": [
+				"Okh"
+			],
+			"rcs": {
+				"in+": {
+					"board": 135,
+					"port": 2
+				},
+				"in-": {
+					"board": 135,
+					"port": 3
+				},
+				"out+": {
+					"board": 135,
+					"port": 10
+				},
+				"out-": {
+					"board": 135,
+					"port": 11
+				}
+			},
+			"track": 529
+		},
+		{
+			"name": "Okh 2",
+			"id": 501,
+			"type": "turnout",
+			"areas": [
+				"Okh"
+			],
+			"rcs": {
+				"in+": {
+					"board": 135,
+					"port": 0
+				},
+				"in-": {
+					"board": 135,
+					"port": 1
+				},
+				"out+": {
+					"board": 135,
+					"port": 8
+				},
+				"out-": {
+					"board": 135,
+					"port": 9
+				}
+			},
+			"track": 529
+		},
+		{
+			"name": "Okh 3",
+			"id": 502,
+			"type": "turnout",
+			"areas": [
+				"Okh"
+			],
+			"rcs": {
+				"in+": {
+					"board": 136,
+					"port": 0
+				},
+				"in-": {
+					"board": 136,
+					"port": 1
+				},
+				"out+": {
+					"board": 136,
+					"port": 0
+				},
+				"out-": {
+					"board": 136,
+					"port": 1
+				}
+			},
+			"track": 530
+		},
+		{
+			"name": "Okh 4",
+			"id": 503,
+			"type": "turnout",
+			"areas": [
+				"Okh"
+			],
+			"rcs": {
+				"in+": {
+					"board": 136,
+					"port": 2
+				},
+				"in-": {
+					"board": 136,
+					"port": 3
+				},
+				"out+": {
+					"board": 136,
+					"port": 2
+				},
+				"out-": {
+					"board": 136,
+					"port": 3
+				}
+			},
+			"track": 530
+		},
+		{
+			"name": "Okh 5",
+			"id": 504,
+			"type": "turnout",
+			"areas": [
+				"Okh"
+			],
+			"rcs": {
+				"in+": {
+					"board": 136,
+					"port": 6
+				},
+				"in-": {
+					"board": 136,
+					"port": 7
+				},
+				"out+": {
+					"board": 136,
+					"port": 6
+				},
+				"out-": {
+					"board": 136,
+					"port": 7
+				}
+			},
+			"track": 530
+		},
+		{
+			"name": "Okh 6",
+			"id": 505,
+			"type": "turnout",
+			"areas": [
+				"Okh"
+			],
+			"rcs": {
+				"in+": {
+					"board": 136,
+					"port": 4
+				},
+				"in-": {
+					"board": 136,
+					"port": 5
+				},
+				"out+": {
+					"board": 136,
+					"port": 4
+				},
+				"out-": {
+					"board": 136,
+					"port": 5
+				}
+			},
+			"track": 531
+		},
+		{
+			"name": "Okh 7",
+			"id": 506,
+			"type": "turnout",
+			"areas": [
+				"Okh"
+			],
+			"rcs": {
+				"in+": {
+					"board": 136,
+					"port": 8
+				},
+				"in-": {
+					"board": 136,
+					"port": 9
+				},
+				"out+": {
+					"board": 136,
+					"port": 8
+				},
+				"out-": {
+					"board": 136,
+					"port": 9
+				}
+			},
+			"track": 531
+		},
+		{
+			"name": "Okh 8",
+			"id": 507,
+			"type": "turnout",
+			"areas": [
+				"Okh"
+			],
+			"rcs": {
+				"in+": {
+					"board": 140,
+					"port": 0
+				},
+				"in-": {
+					"board": 140,
+					"port": 1
+				},
+				"out+": {
+					"board": 140,
+					"port": 8
+				},
+				"out-": {
+					"board": 140,
+					"port": 9
+				}
+			},
+			"track": 532
+		},
+		{
+			"name": "Okh 9",
+			"id": 508,
+			"type": "turnout",
+			"areas": [
+				"Okh"
+			],
+			"rcs": {
+				"in+": {
+					"board": 140,
+					"port": 2
+				},
+				"in-": {
+					"board": 140,
+					"port": 3
+				},
+				"out+": {
+					"board": 140,
+					"port": 10
+				},
+				"out-": {
+					"board": 140,
+					"port": 11
+				}
+			},
+			"track": 532
+		},
+		{
+			"name": "Okh 10",
+			"id": 509,
+			"type": "turnout",
+			"areas": [
+				"Okh"
+			],
+			"rcs": {
+				"in+": {
+					"board": 140,
+					"port": 4
+				},
+				"in-": {
+					"board": 140,
+					"port": 5
+				},
+				"out+": {
+					"board": 140,
+					"port": 12
+				},
+				"out-": {
+					"board": 140,
+					"port": 13
+				}
+			},
+			"track": 532
+		},
+		{
+			"name": "Okh 11",
+			"id": 510,
+			"type": "turnout",
+			"areas": [
+				"Okh"
+			],
+			"rcs": {
+				"in+": {
+					"board": 140,
+					"port": 6
+				},
+				"in-": {
+					"board": 140,
+					"port": 7
+				},
+				"out+": {
+					"board": 140,
+					"port": 14
+				},
+				"out-": {
+					"board": 140,
+					"port": 15
+				}
+			},
+			"track": 532
+		},
+		{
+			"name": "Okh 12",
+			"id": 511,
+			"type": "turnout",
+			"areas": [
+				"Okh"
+			],
+			"rcs": {
+				"in+": {
+					"board": 136,
+					"port": 12
+				},
+				"in-": {
+					"board": 136,
+					"port": 13
+				},
+				"out+": {
+					"board": 136,
+					"port": 12
+				},
+				"out-": {
+					"board": 136,
+					"port": 13
+				}
+			},
+			"track": 533
+		},
+		{
+			"name": "Okh 13",
+			"id": 512,
+			"type": "turnout",
+			"areas": [
+				"Okh"
+			],
+			"rcs": {
+				"in+": {
+					"board": 136,
+					"port": 10
+				},
+				"in-": {
+					"board": 136,
+					"port": 11
+				},
+				"out+": {
+					"board": 136,
+					"port": 10
+				},
+				"out-": {
+					"board": 136,
+					"port": 11
+				}
+			},
+			"track": -2
+		},
+		{
+			"name": "Okh 14",
+			"id": 513,
+			"type": "turnout",
+			"areas": [
+				"Okh"
+			],
+			"rcs": {
+				"in+": {
+					"board": 136,
+					"port": 14
+				},
+				"in-": {
+					"board": 136,
+					"port": 15
+				},
+				"out+": {
+					"board": 136,
+					"port": 14
+				},
+				"out-": {
+					"board": 136,
+					"port": 15
+				}
+			},
+			"track": -2
+		},
+		{
+			"name": "Okh 1aK",
+			"id": 520,
+			"type": "track",
+			"areas": [
+				"Okh"
+			],
+			"rcs": [
+				{
+					"board": 135,
+					"port": 14
+				},
+				{
+					"board": 137,
+					"port": 4
+				}
+			],
+			"length": 120,
+			"booster": "Okh",
+			"maxTrains": 1,
+			"stationTrack": true,
+			"trackName": "1a"
+		},
+		{
+			"name": "Okh 1bK",
+			"id": 521,
+			"type": "track",
+			"areas": [
+				"Okh"
+			],
+			"rcs": [
+				{
+					"board": 137,
+					"port": 12
+				}
+			],
+			"length": 130,
+			"booster": "Okh",
+			"maxTrains": 1,
+			"stationTrack": true,
+			"trackName": "1b"
+		},
+		{
+			"name": "Okh 1cK",
+			"id": 522,
+			"type": "track",
+			"areas": [
+				"Okh"
+			],
+			"rcs": [
+				{
+					"board": 137,
+					"port": 14
+				}
+			],
+			"length": 100,
+			"loop": true,
+			"booster": "Okh",
+			"maxTrains": 1,
+			"stationTrack": true,
+			"trackName": "1c"
+		},
+		{
+			"name": "Okh 1dK",
+			"id": 523,
+			"type": "track",
+			"areas": [
+				"Okh"
+			],
+			"rcs": [
+				{
+					"board": 137,
+					"port": 15
+				}
+			],
+			"length": 110,
+			"booster": "Okh",
+			"maxTrains": 1,
+			"stationTrack": true,
+			"trackName": "1d"
+		},
+		{
+			"name": "Okh 2aK",
+			"id": 524,
+			"type": "track",
+			"areas": [
+				"Okh"
+			],
+			"rcs": [
+				{
+					"board": 135,
+					"port": 15
+				},
+				{
+					"board": 137,
+					"port": 5
+				}
+			],
+			"length": 150,
+			"booster": "Okh",
+			"maxTrains": 1,
+			"stationTrack": true,
+			"trackName": "2a"
+		},
+		{
+			"name": "Okh 2bK",
+			"id": 525,
+			"type": "track",
+			"areas": [
+				"Okh"
+			],
+			"rcs": [
+				{
+					"board": 137,
+					"port": 13
+				}
+			],
+			"length": 130,
+			"booster": "Okh",
+			"maxTrains": 1,
+			"stationTrack": true,
+			"trackName": "2b"
+		},
+		{
+			"name": "Okh 2cK",
+			"id": 526,
+			"type": "track",
+			"areas": [
+				"Okh"
+			],
+			"rcs": [
+				{
+					"board": 139,
+					"port": 0
+				}
+			],
+			"length": 110,
+			"loop": true,
+			"booster": "Okh",
+			"maxTrains": 1,
+			"stationTrack": true,
+			"trackName": "2c"
+		},
+		{
+			"name": "Okh 2dK",
+			"id": 527,
+			"type": "track",
+			"areas": [
+				"Okh"
+			],
+			"rcs": [
+				{
+					"board": 139,
+					"port": 1
+				}
+			],
+			"length": 110,
+			"booster": "Okh",
+			"maxTrains": 1,
+			"stationTrack": true,
+			"trackName": "2d"
+		},
+		{
+			"name": "Okh 3K",
+			"id": 528,
+			"type": "track",
+			"areas": [
+				"Okh"
+			],
+			"rcs": [
+				{
+					"board": 135,
+					"port": 12
+				}
+			],
+			"length": 130,
+			"booster": "Okh",
+			"maxTrains": 1,
+			"stationTrack": true,
+			"trackName": "3"
+		},
+		{
+			"name": "Okh V1-2",
+			"id": 529,
+			"type": "track",
+			"areas": [
+				"Okh"
+			],
+			"rcs": [
+				{
+					"board": 135,
+					"port": 11
+				}
+			],
+			"length": 70,
+			"booster": "Okh",
+			"maxTrains": 1,
+			"stationTrack": false
+		},
+		{
+			"name": "Okh V3-4-5",
+			"id": 530,
+			"type": "track",
+			"areas": [
+				"Okh"
+			],
+			"rcs": [
+				{
+					"board": 137,
+					"port": 9
+				}
+			],
+			"length": 90,
+			"booster": "Okh",
+			"maxTrains": 1,
+			"stationTrack": false
+		},
+		{
+			"name": "Okh V6-7",
+			"id": 531,
+			"type": "track",
+			"areas": [
+				"Okh"
+			],
+			"rcs": [
+				{
+					"board": 137,
+					"port": 8
+				}
+			],
+			"length": 55,
+			"booster": "Okh",
+			"maxTrains": 1,
+			"stationTrack": false
+		},
+		{
+			"name": "Okh V8--11",
+			"id": 532,
+			"type": "track",
+			"areas": [
+				"Okh"
+			],
+			"rcs": [
+				{
+					"board": 140,
+					"port": 12
+				}
+			],
+			"length": 80,
+			"booster": "Okh",
+			"maxTrains": 1,
+			"stationTrack": false
+		},
+		{
+			"name": "Okh V12",
+			"id": 533,
+			"type": "track",
+			"areas": [
+				"Okh"
+			],
+			"rcs": [
+				{
+					"board": 137,
+					"port": 11
+				}
+			],
+			"length": 20,
+			"booster": "Okh",
+			"maxTrains": 1,
+			"stationTrack": false
+		},
+		{
+			"name": "Okh 101K",
+			"id": 534,
+			"type": "track",
+			"areas": [
+				"Okh"
+			],
+			"rcs": [
+				{
+					"board": 137,
+					"port": 10
+				}
+			],
+			"length": 120,
+			"loop": true,
+			"booster": "Okh",
+			"maxTrains": 1,
+			"stationTrack": true,
+			"trackName": "101"
+		},
+		{
+			"name": "Okh 50K",
+			"id": 535,
+			"type": "track",
+			"areas": [
+				"Okh"
+			],
+			"rcs": [
+				{
+					"board": 140,
+					"port": 11
+				}
+			],
+			"length": 60,
+			"booster": "Okh",
+			"maxTrains": 1,
+			"stationTrack": true,
+			"trackName": "50"
+		},
+		{
+			"name": "Okh 52K",
+			"id": 536,
+			"type": "track",
+			"areas": [
+				"Okh"
+			],
+			"rcs": [
+				{
+					"board": 140,
+					"port": 10
+				}
+			],
+			"length": 50,
+			"booster": "Okh",
+			"maxTrains": 1,
+			"stationTrack": true,
+			"trackName": "52"
+		},
+		{
+			"name": "Okh 54K",
+			"id": 537,
+			"type": "track",
+			"areas": [
+				"Okh"
+			],
+			"rcs": [
+				{
+					"board": 140,
+					"port": 9
+				}
+			],
+			"length": 50,
+			"booster": "Okh",
+			"maxTrains": 1,
+			"stationTrack": true,
+			"trackName": "54"
+		},
+		{
+			"name": "Okh 56K",
+			"id": 538,
+			"type": "track",
+			"areas": [
+				"Okh"
+			],
+			"rcs": [
+				{
+					"board": 140,
+					"port": 8
+				}
+			],
+			"length": 50,
+			"booster": "Okh",
+			"maxTrains": 1,
+			"stationTrack": true,
+			"trackName": "56"
+		},
+		{
+			"name": "Okh 40K",
+			"id": 539,
+			"type": "track",
+			"areas": [
+				"Okh"
+			],
+			"rcs": [
+				{
+					"board": 139,
+					"port": 2
+				}
+			],
+			"length": 90,
+			"booster": "Okh",
+			"maxTrains": 1,
+			"stationTrack": true,
+			"trackName": "40"
+		},
+		{
+			"name": "Okh 200K",
+			"id": 540,
+			"type": "track",
+			"areas": [
+				"Okh"
+			],
+			"rcs": [
+				{
+					"board": 137,
+					"port": 6
+				}
+			],
+			"length": 40,
+			"booster": "Okh",
+			"maxTrains": 1,
+			"stationTrack": true,
+			"trackName": "200"
+		},
+		{
+			"name": "Okh 202K",
+			"id": 541,
+			"type": "track",
+			"areas": [
+				"Okh"
+			],
+			"rcs": [
+				{
+					"board": 137,
+					"port": 7
+				}
+			],
+			"length": 40,
+			"booster": "Okh",
+			"maxTrains": 1,
+			"stationTrack": true,
+			"trackName": "202"
+		},
+		{
+			"name": "Okh PriblS",
+			"id": 542,
+			"type": "railwayTrack",
+			"areas": [
+				"Okh"
+			],
+			"rcs": [
+				{
+					"board": 135,
+					"port": 9
+				}
+			],
+			"length": 120,
+			"booster": "Okh",
+			"maxTrains": 1,
+			"stationTrack": false
+		},
+		{
+			"name": "Okh TratS",
+			"id": 543,
+			"type": "railwayTrack",
+			"areas": [
+				"Ku",
+				"Okh"
+			],
+			"rcs": [
+				{
+					"board": 135,
+					"port": 8
+				}
+			],
+			"length": 120,
+			"booster": "Okh",
+			"maxTrains": 1,
+			"stationTrack": false
+		},
+		{
+			"name": "Okh S",
+			"id": 550,
+			"type": "signal",
+			"areas": [
+				"Okh"
+			],
+			"symbolType": 0,
+			"track": 542,
+			"direction": 1
+		},
+		{
+			"name": "Okh L1a",
+			"id": 551,
+			"type": "signal",
+			"areas": [
+				"Okh"
+			],
+			"symbolType": 0,
+			"track": 520,
+			"direction": 0
+		},
+		{
+			"name": "Okh L2a",
+			"id": 552,
+			"type": "signal",
+			"areas": [
+				"Okh"
+			],
+			"symbolType": 0,
+			"track": 524,
+			"direction": 0
+		},
+		{
+			"name": "Okh Sc1a",
+			"id": 553,
+			"type": "signal",
+			"areas": [
+				"Okh"
+			],
+			"symbolType": 0,
+			"track": 520,
+			"direction": 1
+		},
+		{
+			"name": "Okh Sc2a",
+			"id": 554,
+			"type": "signal",
+			"areas": [
+				"Okh"
+			],
+			"symbolType": 0,
+			"track": 524,
+			"direction": 1
+		},
+		{
+			"name": "Okh Lc1b",
+			"id": 555,
+			"type": "signal",
+			"areas": [
+				"Okh"
+			],
+			"symbolType": 0,
+			"track": 521,
+			"direction": 0
+		},
+		{
+			"name": "Okh Lc2b",
+			"id": 556,
+			"type": "signal",
+			"areas": [
+				"Okh"
+			],
+			"symbolType": 0,
+			"track": 525,
+			"direction": 0
+		},
+		{
+			"name": "Okh Lc1c",
+			"id": 557,
+			"type": "signal",
+			"areas": [
+				"Okh"
+			],
+			"symbolType": 0,
+			"track": 522,
+			"direction": 0
+		},
+		{
+			"name": "Okh Lc2c",
+			"id": 558,
+			"type": "signal",
+			"areas": [
+				"Okh"
+			],
+			"symbolType": 0,
+			"track": 526,
+			"direction": 0
+		},
+		{
+			"name": "Okh Sc1d",
+			"id": 559,
+			"type": "signal",
+			"areas": [
+				"Okh"
+			],
+			"symbolType": 0,
+			"track": 523,
+			"direction": 1
+		},
+		{
+			"name": "Okh Sc2d",
+			"id": 560,
+			"type": "signal",
+			"areas": [
+				"Okh"
+			],
+			"symbolType": 0,
+			"track": 527,
+			"direction": 1
+		},
+		{
+			"name": "Okh Lc1d",
+			"id": 561,
+			"type": "signal",
+			"areas": [
+				"Okh"
+			],
+			"symbolType": 0,
+			"track": 523,
+			"direction": 0
+		},
+		{
+			"name": "Okh Lc2d",
+			"id": 562,
+			"type": "signal",
+			"areas": [
+				"Okh"
+			],
+			"symbolType": 0,
+			"track": 527,
+			"direction": 0
+		},
+		{
+			"name": "Okh Sc3",
+			"id": 563,
+			"type": "signal",
+			"areas": [
+				"Okh"
+			],
+			"symbolType": 0,
+			"track": 528,
+			"direction": 1
+		},
+		{
+			"name": "Okh L3",
+			"id": 564,
+			"type": "signal",
+			"areas": [
+				"Okh"
+			],
+			"symbolType": 0,
+			"track": 528,
+			"direction": 0
+		},
+		{
+			"name": "Okh Sc101",
+			"id": 565,
+			"type": "signal",
+			"areas": [
+				"Okh"
+			],
+			"symbolType": 0,
+			"track": 534,
+			"direction": 1
+		},
+		{
+			"name": "Okh Se1",
+			"id": 566,
+			"type": "signal",
+			"areas": [
+				"Okh"
+			],
+			"symbolType": 1,
+			"track": 526,
+			"direction": 0
+		},
+		{
+			"name": "Okh Se2",
+			"id": 567,
+			"type": "signal",
+			"areas": [
+				"Okh"
+			],
+			"symbolType": 1,
+			"track": 522,
+			"direction": 0
+		},
+		{
+			"name": "Okh Se3",
+			"id": 568,
+			"type": "signal",
+			"areas": [
+				"Okh"
+			],
+			"symbolType": 1,
+			"track": 535,
+			"direction": 0
+		},
+		{
+			"name": "Okh Se4",
+			"id": 569,
+			"type": "signal",
+			"areas": [
+				"Okh"
+			],
+			"symbolType": 1,
+			"track": 536,
+			"direction": 0
+		},
+		{
+			"name": "Okh Se5",
+			"id": 570,
+			"type": "signal",
+			"areas": [
+				"Okh"
+			],
+			"symbolType": 1,
+			"track": 537,
+			"direction": 0
+		},
+		{
+			"name": "Okh Se6",
+			"id": 571,
+			"type": "signal",
+			"areas": [
+				"Okh"
+			],
+			"symbolType": 1,
+			"track": 538,
+			"direction": 0
+		},
+		{
+			"name": "Okh Se7",
+			"id": 572,
+			"type": "signal",
+			"areas": [
+				"Okh"
+			],
+			"symbolType": 1,
+			"track": 534,
+			"direction": 1
+		},
+		{
+			"name": "Okh Se8",
+			"id": 573,
+			"type": "signal",
+			"areas": [
+				"Okh"
+			],
+			"symbolType": 1,
+			"track": 540,
+			"direction": 1
+		},
+		{
+			"name": "Okh Se9",
+			"id": 574,
+			"type": "signal",
+			"areas": [
+				"Okh"
+			],
+			"symbolType": 1,
+			"track": 541,
+			"direction": 1
+		},
+		{
+			"name": "Okh Sc1b",
+			"id": 575,
+			"type": "signal",
+			"areas": [
+				"Okh"
+			],
+			"symbolType": 0,
+			"track": 521,
+			"direction": 1
+		},
+		{
+			"name": "Okh Sc2b",
+			"id": 576,
+			"type": "signal",
+			"areas": [
+				"Okh"
+			],
+			"symbolType": 0,
+			"track": 525,
+			"direction": 1
+		},
+		{
+			"name": "Okh Lc40",
+			"id": 577,
+			"type": "signal",
+			"areas": [
+				"Okh"
+			],
+			"symbolType": 0,
+			"track": 539,
+			"direction": 0
+		},
+		{
+			"name": "Okh S40",
+			"id": 578,
+			"type": "signal",
+			"areas": [
+				"Okh"
+			],
+			"symbolType": 0,
+			"track": 539,
+			"direction": 1
+		},
+		{
+			"name": "Okh IR L1a",
+			"id": 580,
+			"type": "ir",
+			"rcs": {
+				"board": 137,
+				"port": 1
+			}
+		},
+		{
+			"name": "Okh IR L2a",
+			"id": 581,
+			"type": "ir",
+			"rcs": {
+				"board": 137,
+				"port": 0
+			}
+		},
+		{
+			"name": "Okh IR Lc1b",
+			"id": 582,
+			"type": "ir",
+			"rcs": {
+				"board": 139,
+				"port": 12
+			}
+		},
+		{
+			"name": "Okh IR Lc2b",
+			"id": 583,
+			"type": "ir",
+			"rcs": {
+				"board": 139,
+				"port": 13
+			}
+		},
+		{
+			"name": "Okh IR Lc1c",
+			"id": 584,
+			"type": "ir",
+			"rcs": {
+				"board": 139,
+				"port": 11
+			}
+		},
+		{
+			"name": "Okh IR Lc2c",
+			"id": 585,
+			"type": "ir",
+			"rcs": {
+				"board": 139,
+				"port": 10
+			}
+		},
+		{
+			"name": "Okh IR Sc1d",
+			"id": 586,
+			"type": "ir",
+			"rcs": {
+				"board": 139,
+				"port": 9
+			}
+		},
+		{
+			"name": "Okh IR Sc2d",
+			"id": 587,
+			"type": "ir",
+			"rcs": {
+				"board": 139,
+				"port": 8
+			}
+		},
+		{
+			"name": "Okh Sc3",
+			"id": 588,
+			"type": "ir",
+			"rcs": {
+				"board": 137,
+				"port": 2
+			}
+		},
+		{
+			"name": "Okh IR Sc101",
+			"id": 589,
+			"type": "ir",
+			"rcs": {
+				"board": 137,
+				"port": 3
+			}
+		},
+		{
+			"name": "Ku>>Bs",
+			"id": 1000,
+			"type": "railway",
+			"linkerA": 1001,
+			"linkerB": 1002,
+			"zabzar": 2,
+			"signals": 0,
+			"tracks": [
+				326,
+				424,
+				422,
+				428,
+				161,
+				160
+			]
+		},
+		{
+			"name": "Ku-Bs",
+			"id": 1001,
+			"type": "linker",
+			"areas": [
+				"Ku"
+			]
+		},
+		{
+			"name": "Bs-Ku",
+			"id": 1002,
+			"type": "linker",
+			"areas": [
+				"Bs"
+			]
+		},
+		{
+			"name": "Ku>>Sm",
+			"id": 1005,
+			"type": "railway",
+			"linkerA": 1006,
+			"linkerB": 1007,
+			"zabzar": 2,
+			"signals": 0,
+			"tracks": [
+				320
+			]
+		},
+		{
+			"name": "Ku-Sm",
+			"id": 1006,
+			"type": "linker",
+			"areas": [
+				"Ku"
+			]
+		},
+		{
+			"name": "Sm-Ku",
+			"id": 1007,
+			"type": "linker",
+			"areas": [
+				"Sm"
+			]
+		},
+		{
+			"name": "Okh>>Ku",
+			"id": 1010,
+			"type": "railway",
+			"linkerA": 1011,
+			"linkerB": 1012,
+			"zabzar": 2,
+			"signals": 0,
+			"tracks": [
+				542,
+				543,
+				323
+			]
+		},
+		{
+			"name": "Okh-Ku",
+			"id": 1011,
+			"type": "linker",
+			"areas": [
+				"Okh"
+			]
+		},
+		{
+			"name": "Ku-Okh",
+			"id": 1012,
+			"type": "linker",
+			"areas": [
+				"Ku"
+			]
+		}
+	]
+}

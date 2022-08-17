@@ -1,0 +1,3 @@
+C:/Users/skajl/Desktop/Vzdelani/PEF/Vyuka/Semestr3/ALG/Cviceni/cviceni10_serazenySeznamTrid2/cmake-build-debug/CMakeFiles/cviceni10_serazenySeznamTrid2.dir
+C:/Users/skajl/Desktop/Vzdelani/PEF/Vyuka/Semestr3/ALG/Cviceni/cviceni10_serazenySeznamTrid2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/skajl/Desktop/Vzdelani/PEF/Vyuka/Semestr3/ALG/Cviceni/cviceni10_serazenySeznamTrid2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

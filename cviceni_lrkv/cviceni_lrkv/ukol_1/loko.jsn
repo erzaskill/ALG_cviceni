@@ -1,0 +1,755 @@
+{
+	"loks": [
+		{
+			"addr": 3,
+			"name": "BR03",
+			"owner": "IS",
+			"designation": "BR03",
+			"maxSpeed": 120,
+			"type": "steam",
+			"funcTypes": ""
+		},
+		{
+			"addr": 25,
+			"name": "294",
+			"owner": "Martin Tyllich",
+			"designation": "294",
+			"maxSpeed": 120,
+			"type": "diesel",
+			"funcTypes": ""
+		},
+		{
+			"addr": 1001,
+			"name": "test",
+			"owner": "HH",
+			"designation": "V100",
+			"maxSpeed": 120,
+			"type": "diesel",
+			"funcTypes": ""
+		},
+		{
+			"addr": 1030,
+			"name": "Elektrika",
+			"owner": "Mendelu",
+			"designation": "103.200",
+			"maxSpeed": 120,
+			"type": "electro",
+			"funcTypes": ""
+		},
+		{
+			"addr": 1150,
+			"name": "01",
+			"owner": "JR",
+			"designation": "01.15",
+			"maxSpeed": 120,
+			"type": "steam",
+			"funcTypes": ""
+		},
+		{
+			"addr": 1350,
+			"name": "VT135-vlek",
+			"owner": "JR",
+			"designation": "140.265",
+			"maxSpeed": 70,
+			"type": "motor",
+			"funcDescription": [
+				"světla zadní"
+			],
+			"funcTypes": "P"
+		},
+		{
+			"addr": 1351,
+			"name": "VT135",
+			"owner": "JR",
+			"designation": "VT135.122",
+			"maxSpeed": 70,
+			"type": "motor",
+			"funcDescription": [
+				"",
+				"zvuk",
+				"houkačka dlouhá",
+				"zvon",
+				"dveře",
+				"hlášení",
+				"",
+				"",
+				"",
+				"vzduch",
+				"píšťala výpravčího",
+				"hlášení",
+				"vzduch"
+			],
+			"funcTypes": "PPMPMMPPPPMMP"
+		},
+		{
+			"addr": 1370,
+			"name": "VT137",
+			"owner": "Mendelova univerzita",
+			"designation": "VT137",
+			"maxSpeed": 120,
+			"type": "motor",
+			"funcDescription": [
+				"světla",
+				"zvuk",
+				"klakson",
+				"osvětlení interiéru",
+				"osvětlení kabiny strojvedoucího",
+				"kompresor",
+				"posun",
+				"skřípění v oblouku",
+				"hlášení",
+				"vzduch",
+				"píšťala výpravčího",
+				"spřáhlo",
+				"písek"
+			],
+			"funcTypes": "PPPPPPPPPPPPP"
+		},
+		{
+			"addr": 1371,
+			"name": "VT33",
+			"owner": "JR",
+			"designation": "137.064",
+			"maxSpeed": 120,
+			"type": "motor",
+			"funcTypes": ""
+		},
+		{
+			"addr": 1500,
+			"name": "Prasátko",
+			"owner": "JR",
+			"designation": "BN150",
+			"maxSpeed": 120,
+			"type": "diesel",
+			"funcTypes": ""
+		},
+		{
+			"addr": 1520,
+			"name": "M152",
+			"owner": "MENDELU",
+			"designation": "M152.0392",
+			"maxSpeed": 120,
+			"type": "motor",
+			"funcDescription": [
+				"světla",
+				"",
+				"",
+				"posun",
+				"",
+				"",
+				"vypouštění páry",
+				"houkačka střední",
+				"zvuk",
+				"houkačka 2 krátká",
+				"houkačka dlouhá",
+				"houkačka krátká",
+				"hlášení",
+				"píšťala výpravčího",
+				"otevření dveří",
+				"kompresor odlehčení",
+				"kompresor odlehčení",
+				"šroubovka odvěšení",
+				"šroubovka svěšení",
+				"přepínání sad zvuků (-)",
+				"skřípění v oblouku",
+				"otevření/zavření 2 dveří",
+				"otevření/zavření dveří 2",
+				"",
+				"vzduch"
+			],
+			"funcTypes": "PPPPPPPPPPPPPPPPPPPPPPPPP"
+		},
+		{
+			"addr": 1850,
+			"name": "BR 185",
+			"owner": "Jiri Rybicka",
+			"designation": "DR VT137",
+			"maxSpeed": 120,
+			"type": "motor",
+			"funcDescription": [
+				"světla"
+			],
+			"funcTypes": "P"
+		},
+		{
+			"addr": 2040,
+			"name": "Railion",
+			"owner": "JR",
+			"designation": "RN204.616",
+			"maxSpeed": 120,
+			"type": "diesel",
+			"funcDescription": [
+				"světla"
+			],
+			"funcTypes": "P"
+		},
+		{
+			"addr": 2400,
+			"name": "Singrovka",
+			"owner": "JR",
+			"designation": "M240.0",
+			"maxSpeed": 120,
+			"type": "motor",
+			"funcTypes": ""
+		},
+		{
+			"addr": 3652,
+			"name": "BR64",
+			"owner": "JV",
+			"designation": "64113",
+			"maxSpeed": 120,
+			"type": "steam",
+			"funcDescription": [
+				"světla"
+			],
+			"funcTypes": "P"
+		},
+		{
+			"addr": 3654,
+			"name": "365.4",
+			"owner": "JR",
+			"designation": "365.438",
+			"maxSpeed": 120,
+			"type": "steam",
+			"funcDescription": [
+				"světla"
+			],
+			"funcTypes": "P"
+		},
+		{
+			"addr": 4111,
+			"name": "BR41",
+			"owner": "JR",
+			"designation": "41.1147",
+			"maxSpeed": 120,
+			"note": "K odstsveni do depa na okruhu",
+			"type": "steam",
+			"funcTypes": ""
+		},
+		{
+			"addr": 4135,
+			"name": "Zeměplaz",
+			"owner": "MENDELU",
+			"designation": "413.0",
+			"maxSpeed": 120,
+			"type": "steam",
+			"funcDescription": [
+				"světla",
+				"",
+				"zvuk",
+				"",
+				"",
+				"píšťala dlouhá",
+				"zvon",
+				"spřáhlo"
+			],
+			"funcTypes": "PPPPPPPP"
+		},
+		{
+			"addr": 4136,
+			"name": "413",
+			"owner": "jv",
+			"designation": "413",
+			"maxSpeed": 120,
+			"type": "steam",
+			"funcTypes": ""
+		},
+		{
+			"addr": 4138,
+			"name": "413.0",
+			"owner": "JR",
+			"designation": "413.073",
+			"maxSpeed": 40,
+			"type": "steam",
+			"funcDescription": [
+				"",
+				"píšťala krátká",
+				"píšťala dlouhá",
+				"zvon",
+				"vypouštění páry",
+				"píšťala výpravčího",
+				"",
+				"popelník",
+				"zvuk",
+				"hlášení",
+				"injektor",
+				"vypouštění páry",
+				"injektor",
+				"spřáhlo",
+				"",
+				"hlášení",
+				"přikládání paliva"
+			],
+			"funcTypes": "PPPPPPPPPPPPPPPPP"
+		},
+		{
+			"addr": 4139,
+			"name": "413.098",
+			"owner": "mišák",
+			"designation": "413.0",
+			"maxSpeed": 120,
+			"type": "steam",
+			"funcTypes": ""
+		},
+		{
+			"addr": 4220,
+			"name": "Maly bycek",
+			"owner": "Mendelova univerzita",
+			"designation": "92.2222",
+			"maxSpeed": 120,
+			"type": "steam",
+			"funcDescription": [
+				"světla",
+				"zvuk",
+				"píšťala dlouhá",
+				"píšťala krátká",
+				"",
+				"čerpadlo",
+				"posun",
+				"skřípění v oblouku",
+				"přikládání paliva",
+				"vypouštění páry",
+				"píšťala výpravčího",
+				"spřáhlo",
+				"písek"
+			],
+			"funcTypes": "PPPPPPPPPPPPP"
+		},
+		{
+			"addr": 4231,
+			"name": "Velký býček",
+			"owner": "Mišák",
+			"designation": "423.040",
+			"maxSpeed": 120,
+			"type": "steam",
+			"funcTypes": ""
+		},
+		{
+			"addr": 4310,
+			"name": "413.0",
+			"owner": "Mendelova univerzita",
+			"designation": "413.0",
+			"maxSpeed": 120,
+			"type": "steam",
+			"funcDescription": [
+				"světla",
+				"",
+				"zvuk",
+				"",
+				"",
+				"píšťala dlouhá",
+				"zvon",
+				"spřáhlo"
+			],
+			"funcTypes": "PPPPPPPP"
+		},
+		{
+			"addr": 4311,
+			"name": "431.0 ventylovka",
+			"owner": "mišáík",
+			"designation": "4311",
+			"maxSpeed": 120,
+			"type": "steam",
+			"funcTypes": ""
+		},
+		{
+			"addr": 4318,
+			"name": "Ventilovka",
+			"owner": "Jiri Rybicka",
+			"designation": "431.026",
+			"maxSpeed": 120,
+			"type": "steam",
+			"funcTypes": ""
+		},
+		{
+			"addr": 4350,
+			"name": "Hektor",
+			"owner": "Mendelova univerzita",
+			"designation": "T435.0",
+			"maxSpeed": 120,
+			"type": "diesel",
+			"funcDescription": [
+				"světla",
+				"zvuk",
+				"píšťala dlouhá",
+				"píšťala krátká",
+				"",
+				"spřáhlo",
+				"posun",
+				"zvuk motoru",
+				"kompresor",
+				"zvuk motoru"
+			],
+			"funcTypes": "PPPPPPPPPP"
+		},
+		{
+			"addr": 4351,
+			"name": "Hektor",
+			"owner": "Mendelova univerzita",
+			"designation": "T435.0",
+			"maxSpeed": 120,
+			"type": "diesel",
+			"funcDescription": [
+				"",
+				"světla zadní",
+				"",
+				"posun",
+				"houkačka krátká",
+				"",
+				"zvuk motoru",
+				"houkačka dlouhá",
+				"zvuk",
+				"",
+				"",
+				"kompresor",
+				"spřáhlo"
+			],
+			"funcTypes": "PPPPPPPPPPPPP"
+		},
+		{
+			"addr": 4641,
+			"name": "Ušatá",
+			"owner": "Mišák",
+			"designation": "464.018",
+			"maxSpeed": 120,
+			"type": "steam",
+			"funcTypes": ""
+		},
+		{
+			"addr": 4662,
+			"name": "T466.2",
+			"owner": "JV",
+			"designation": "",
+			"maxSpeed": 120,
+			"type": "diesel",
+			"funcTypes": ""
+		},
+		{
+			"addr": 4663,
+			"name": "Kocour TT",
+			"owner": "HH",
+			"designation": "T466.2",
+			"maxSpeed": 120,
+			"type": "diesel",
+			"funcTypes": ""
+		},
+		{
+			"addr": 4780,
+			"name": "Zamracena",
+			"owner": "Mendelova univerzita",
+			"designation": "T478.1",
+			"maxSpeed": 120,
+			"type": "diesel",
+			"funcDescription": [
+				"světla",
+				"zvuk",
+				"houkačka dlouhá",
+				"píšťala výpravčího",
+				"",
+				"",
+				"posun",
+				"",
+				"",
+				"",
+				"",
+				"píšťala krátká",
+				"píšťala dlouhá"
+			],
+			"funcTypes": "PPPPPPPPPPPPP"
+		},
+		{
+			"addr": 4781,
+			"name": "Zamračená",
+			"owner": "JR",
+			"designation": "T478.1010",
+			"maxSpeed": 120,
+			"type": "diesel",
+			"funcDescription": [
+				"světla"
+			],
+			"funcTypes": "P"
+		},
+		{
+			"addr": 4783,
+			"name": "Brejlovec",
+			"owner": "JR",
+			"designation": "T478.3082",
+			"maxSpeed": 120,
+			"type": "diesel",
+			"funcDescription": [
+				"světla"
+			],
+			"funcTypes": "P"
+		},
+		{
+			"addr": 4784,
+			"name": "Brejlovec Brno",
+			"owner": "JR",
+			"designation": "T478.4023",
+			"maxSpeed": 120,
+			"type": "diesel",
+			"funcDescription": [
+				"světla",
+				"zvuk",
+				"houkačka dlouhá",
+				"píšťala dl.",
+				"spřáhlo",
+				"píšťala výpravčího",
+				"posun",
+				"skřípění v oblouku",
+				"vzduch",
+				"",
+				"hlášení",
+				"",
+				"houkačka krátká",
+				"píšťala kr."
+			],
+			"funcTypes": "PPMMMMPPPPMPMM"
+		},
+		{
+			"addr": 4786,
+			"name": "Bardotka TT",
+			"owner": "Horáčkovi",
+			"designation": "T478",
+			"maxSpeed": 120,
+			"type": "diesel",
+			"funcDescription": [
+				"světla",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"zvuk"
+			],
+			"funcTypes": "PPPPPPPPP"
+		},
+		{
+			"addr": 5346,
+			"name": "534.1",
+			"owner": "jv",
+			"designation": "534.1",
+			"maxSpeed": 120,
+			"type": "steam",
+			"funcDescription": [
+				"světla",
+				"světla"
+			],
+			"funcTypes": "PP"
+		},
+		{
+			"addr": 5800,
+			"name": "BR58",
+			"owner": "JR",
+			"designation": "58.311",
+			"maxSpeed": 120,
+			"type": "steam",
+			"funcDescription": [
+				"světla",
+				"zvuk",
+				"píšťala dlouhá",
+				"zvon",
+				"",
+				"spřáhlo",
+				"",
+				"vypouštění páry",
+				"injektor",
+				"přikládání paliva",
+				"popelník",
+				"píšťala výpravčího",
+				"píšťala krátká",
+				"",
+				"",
+				"",
+				"píšťala krátká"
+			],
+			"funcTypes": "PPPPPPPPPPPPPPPPP"
+		},
+		{
+			"addr": 6790,
+			"name": "sergej",
+			"owner": "Ryb",
+			"designation": "T679.1",
+			"maxSpeed": 120,
+			"type": "diesel",
+			"funcDescription": [
+				"světla",
+				"zvuk",
+				"houkačka dlouhá",
+				"houkačka krátká",
+				"píšťala výpravčího",
+				"",
+				"posun",
+				"",
+				"",
+				"",
+				"",
+				"spřáhlo rozvěšení",
+				"spřáhlo svěšení",
+				"klakson",
+				"",
+				"vzduch",
+				"houkačka střední"
+			],
+			"funcTypes": "PPPPPPPPPPPPPPPPP"
+		},
+		{
+			"addr": 7402,
+			"name": "Kocour",
+			"owner": "Haribo",
+			"designation": "742",
+			"maxSpeed": 120,
+			"note": "Test",
+			"type": "diesel",
+			"funcDescription": [
+				"světla"
+			],
+			"funcTypes": "P"
+		},
+		{
+			"addr": 7426,
+			"name": "T466.2",
+			"owner": "JV",
+			"designation": "4662",
+			"maxSpeed": 120,
+			"type": "diesel",
+			"funcTypes": ""
+		},
+		{
+			"addr": 7429,
+			"name": "Kocour",
+			"owner": "Jiří Veselý",
+			"designation": "T466.2293",
+			"maxSpeed": 120,
+			"type": "diesel",
+			"funcTypes": ""
+		},
+		{
+			"addr": 7492,
+			"name": "Bardotka",
+			"owner": "Tomáš Kasal",
+			"designation": "T 478.1003",
+			"maxSpeed": 120,
+			"note": "Ověřovací série, zvuk",
+			"type": "diesel",
+			"funcDescription": [
+				"světla",
+				"světla zadní",
+				"",
+				"dálkový světlomet",
+				"světlo v kabině vzad",
+				"světlo v kabině vpřed",
+				"",
+				"houkačka dlouhá",
+				"zvuk",
+				"houkačka krátká",
+				"šroubovka",
+				"písek"
+			],
+			"funcTypes": "PPPPPPPPPPPP"
+		},
+		{
+			"addr": 7493,
+			"name": "bardotka",
+			"owner": "myšák",
+			"designation": "T478.1",
+			"maxSpeed": 120,
+			"type": "diesel",
+			"funcTypes": ""
+		},
+		{
+			"addr": 7496,
+			"name": "Bardotka",
+			"owner": "David Šálek",
+			"designation": "T478.2075",
+			"maxSpeed": 120,
+			"type": "diesel",
+			"funcDescription": [
+				"světla"
+			],
+			"funcTypes": "P"
+		},
+		{
+			"addr": 7519,
+			"name": "Bardotka – Gregor",
+			"owner": "Michal Gregor",
+			"designation": "T478.1010",
+			"maxSpeed": 120,
+			"note": "Svetla ve vagonech – F2",
+			"type": "diesel",
+			"funcTypes": ""
+		},
+		{
+			"addr": 7520,
+			"name": "bardotka",
+			"owner": "Tomáš Kasal",
+			"designation": "t478.1230",
+			"maxSpeed": 120,
+			"type": "diesel",
+			"funcDescription": [
+				"světla",
+				"zvuk"
+			],
+			"funcTypes": "PP"
+		},
+		{
+			"addr": 7523,
+			"name": "Zamračená",
+			"owner": "Mišák",
+			"designation": "T478.1010",
+			"maxSpeed": 120,
+			"type": "diesel",
+			"funcTypes": ""
+		},
+		{
+			"addr": 7524,
+			"name": "Zamračená",
+			"owner": "Štěpán Gavanda",
+			"designation": "T478.2059",
+			"maxSpeed": 100,
+			"type": "diesel",
+			"funcDescription": [
+				"světla",
+				"zvuk"
+			],
+			"funcTypes": "PP"
+		},
+		{
+			"addr": 7540,
+			"name": "Brejlovec",
+			"owner": "Tomáš Kasal",
+			"designation": "T478.4023",
+			"maxSpeed": 120,
+			"type": "diesel",
+			"funcDescription": [
+				"světla",
+				"zvuk"
+			],
+			"funcTypes": "PP"
+		},
+		{
+			"addr": 8200,
+			"name": "Singrovka",
+			"owner": "Tomáš Kasal",
+			"designation": "M240",
+			"maxSpeed": 120,
+			"type": "motor",
+			"funcDescription": [
+				"světla",
+				"",
+				"",
+				"spřáhlo",
+				"houkačka krátká",
+				"klakson",
+				"",
+				"",
+				"zvuk",
+				"houkačka dvojitá",
+				"zvuk motoru"
+			],
+			"funcTypes": "PPPPPPPPPPP"
+		}
+	]
+}

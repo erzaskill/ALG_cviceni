@@ -1,0 +1,11 @@
+Karel 20000
+Jana 75000
+Lucie 121500
+Jan 35600
+Miroslav 18500
+Milan 27800
+Lenka 45200
+Jarmila 45700
+Michal 36000
+Michaela 45300
+Filip 20800

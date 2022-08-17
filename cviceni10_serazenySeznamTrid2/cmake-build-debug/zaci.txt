@@ -1,0 +1,16 @@
+Karel     Dvoracek  4.A m 1.00
+Jan       Novy      4.A m 2.10
+Jarmila   Novotna   4.C z 1.75
+Jindrich  Kucera    4.A m 3.15
+Alena     Ruzickova 4.B z 1.10
+Andrea    Novakova  4.A z 1.35
+Michal    Prask     4.A m 2.75
+Martina   Vesela    4.C z 2.15
+Jana      Bartkova  4.B z 1.00
+Frantisek Kolovrat  4.B m 1.80
+Marcel    Hrouzek   4.A m 1.90
+Klara     Mikulkova 4.B z 1.00
+Marta     Lesenska  4.A z 1.80
+Marketa   Bila      4.C z 1.25
+Jana      Rybova    4.B z 1.10
+Ales      Cerveny   4.A m 3.40

@@ -1,0 +1,7 @@
+Zadání pro soubor seznam.cpp:
+Program seznam.cpp bude mít za cíl získat seznam prvků zadaného typu ze serveru kolejiště a uložit jej do souboru. Tato dovednost již byla implemontována a využita v základních řídících programech. Vašim úkolem tak bude implementovat vlastní program na základě "odpozorování" ze základních řídících programů. Při spuštění bude pogramu zadáván 1 parametr – typ prvků (blocks/loks/jc), jejichž seznam získá program ze serveru. V souboru seznam.cpp je již připravena základní struktura programu, do níž provedete implementaci vlastního kódu.
+
+
+Zadání pro soubory nahrada_xx.cpp:
+Všechny tyto programy budou představovat náhradu základních řídícíh programů shodného názvu. Při jejich implementaci tak vycházejte výhradně z řídících programů shodného názvu. Jedinou změnou oproti základním řídícím programům bude fakt, že id prvku budeme zadávat již jako 1. parametr z příkazového řádku – odpadá tedy potřeba vyhledávání id dle zadaného názvu prvku. Výsledná funkce náhradních programů bude shodná s funkcí programů základních. Vašim úkolem tak bude implementovat vlastní náhradní programy na základě "odpozorování" ze základních řídících programů (shodně jako u souboru seznam.cpp). V jednotlivých souborech nahrada_xx.cpp je již připravena základní struktura programu, do níž provedete implementaci vlastního kódu.
+!!Soubory nahrada_xx.cpp potřebují ke kompilaci modul mzjisti.cpp, i když se Vám jej nepodařilo naimplementovat!!
